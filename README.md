@@ -29,3 +29,4 @@
 Более подробную информацию про ДНР можно узнать в [Википедии](https://ru.wikipedia.org/wiki/Донецкая_Народная_Республика).
 <br>
 Более подробную информацию про ЛНР можно узнать в [Википедии](https://ru.wikipedia.org/wiki/Луганская_Народная_Республика).
+[![](https://github.com/ruzaharsu/svoe/blob/main/Vk.png)](https://vk.com/new_su_2020)
