@@ -30,5 +30,6 @@
 <br>
 Более подробную информацию про ЛНР можно узнать в [Википедии](https://ru.wikipedia.org/wiki/Луганская_Народная_Республика).
 <br>
-## Мы в соц сетях
-[![](https://github.com/ruzaharsu/svoe/blob/main/Vk.png)](https://vk.com/new_su_2020)
+## Поддержка
+[![](https://github.com/ruzaharsu/svoe/blob/main/telegram.png)](https://t.me/ruzahardni)
+
