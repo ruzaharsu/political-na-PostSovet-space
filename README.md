@@ -1,5 +1,5 @@
 # Политика на Постсоветском пространстве
-![](https://github.com/ruzaharsu/work/blob/main/7786.jpg)
+![](https://github.com/ruzaharsu/my.site/blob/main/postSoviet_space.png)
 ## Информация о сайте 
 Этото сайт про политику вокруг ДНР и ЛНР.
 <br>
