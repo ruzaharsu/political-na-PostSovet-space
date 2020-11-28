@@ -32,4 +32,5 @@
 
 ## Поддержка
 [![](https://github.com/ruzaharsu/svoe/blob/main/telegram.png)](https://t.me/ruzahardni)
+![](https://github.com/ruzaharsu/svoe/blob/main/telegram.png)
 
