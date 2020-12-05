@@ -26,6 +26,7 @@
 ## Ссылки
 Более подробную информацию про Постсоветское пространство можно узнать в [Википедии](https://ru.wikipedia.org/wiki/Постсоветское_пространство).
 <br>
+[![](https://github.com/ruzaharsu/svoe/blob/main/Vk.png)](https://vk.com/ruzahardni)
 
 ## Поддержка
 [![](https://github.com/ruzaharsu/svoe/blob/main/telegram.png)](https://t.me/ruzahardni)
