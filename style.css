@@ -33,9 +33,12 @@ main{
     color:white;
     width: 100%;
     height: auto;
+
 }
 main p{
-    margin: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-indent: 30px;
 }
 footer{
     width: 100%;
