@@ -30,4 +30,6 @@
 
 ## Поддержка
 [![](https://github.com/ruzaharsu/svoe/blob/main/telegram.png)](https://t.me/ruzahardni)
+## Рисунок сайта:
+![](https://github.com/ruzaharsu/political-na-PostSovet-space/blob/main/ussr.jpg)
 
