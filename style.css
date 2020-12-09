@@ -7,7 +7,7 @@ body, html{
     font-family: Arial, Helvetica, sans-serif;
     text-align: auto;
     background-color: black;
-    font-size: 20px;
+    font-size: 14px;
     height: 100%;
 }
 
@@ -44,6 +44,17 @@ header a{
     text-decoration: none;
     color: red;
     margin: 2%;
+}
+#nav-country{
+    color: white;
+    background-color: #155a15;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 header a:hover{
     text-decoration: none;
