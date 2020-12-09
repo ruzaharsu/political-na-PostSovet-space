@@ -22,6 +22,17 @@ header{
     align-items: center;
     flex-wrap: wrap;
 }
+header div{
+    color: white;
+    background-color: #1c771c;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-around;
+    
+    
+}
 header a{
     text-decoration: none;
     color: white;
