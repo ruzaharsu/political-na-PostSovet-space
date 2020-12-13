@@ -33,6 +33,7 @@
     <br><br>
     <button onclick="autoPlus()">Выпустить 1 рубль (100 рублей)</button>
     <br><br>
+    <button onclick="remont()">На ремонт дорог (150000000000000)</button>
 
     <script>
         let ochk = document.querySelector('#kom');
@@ -46,6 +47,17 @@
         function go() {
             ochki += 146458222352436576
             ochk.textContent = ochki
+        }
+        function remont() {
+            if (ochki >= 150000000000000) {
+
+                ochki -= 150000000000000
+                ochki += nalogi
+                ochk.textContent = ochki
+            }
+            else {
+                alert("Бля денег на ремонт нет!!!")
+            }
         }
         function bon() {
 
@@ -71,7 +83,7 @@
             }
         }
 
-        setInterval(() =>{
+        setInterval(() => {
             ochki += ochki_Plus_auto;
             ochk.textContent = ochki
 
