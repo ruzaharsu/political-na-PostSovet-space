@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            background-color: rgb(42, 96, 197);
+            font-size: 1.3em;
+            width: 400px;
+            padding: 10px;
+            color: white;
+            border-radius: 10px;
+        }
+
+        p {
+            font-size: 1.5em;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Казна России</h1>
+    <button onclick="go()" id="lol">Собрать деньги с народа</button>
+    <p>Очки: <span id="kom">0</span></p>
+    <p>Цель: не просрать деньги</p>
+    <hr>
+    <button onclick="bon()">Произвести выплаты (2 000 000 000 рублей)</button>
+    <br><br>
+    <button onclick="autoPlus()">Выпустить 1 рубль (100 рублей)</button>
+    <br><br>
+
+    <script>
+        let ochk = document.querySelector('#kom');
+        let ochki = 10000000;
+        let ochki_Plus = 1;
+        let ochki_Plus_auto = 0;
+        let nalogi = 1000000
+
+
+
+        function go() {
+            ochki += 1464582220
+            ochk.textContent = ochki
+        }
+        function bon() {
+
+            if (ochki >= 2000000) {
+
+                ochki -= 2000000
+                ochki += nalogi
+                ochk.textContent = ochki
+            }
+            else {
+                alert("Денег в казне нет!!!")
+            }
+        }
+        function autoPlus() {
+
+            if (ochki >= 100) {
+                ochki -= 100
+                ochk.textContent = ochki
+                ochki_Plus_auto++
+            }
+            else {
+                alert("Денег в казне нет!!!")
+            }
+        }
+
+        setInterval(() =>{
+            ochki += ochki_Plus_auto;
+            ochk.textContent = ochki
+
+        }, 100)
+
+
+
+
+
+    </script>
+</body>
+
+</html>
