@@ -22,7 +22,14 @@
             color: white;
             border-radius: 10px;
         }
-
+        #green{
+            background-color: green;
+            font-size: 1.3em;
+            width: 100%;
+            padding: 10px;
+            color: white;
+            border-radius: 10px;
+        }
         p {
             font-size: 1.5em;
             font-family: Georgia, 'Times New Roman', Times, serif;
@@ -39,7 +46,9 @@
     <hr>
     <button onclick="bon()">Произвести выплаты (2 000 000 000 рублей)</button>
     <br><br>
-    <button onclick="autoPlus()">Выпустить 1 рубль (100 рублей)</button>
+    <button onclick="autoPlus()">Выпустить  рубль (100 рублеhй)</button>
+    <br><br>
+    <button onclick="rubl()" id="green">Выпустить  рубль </button>
     <br><br>
     <button onclick="remont()">На ремонт дорог (150000000000000)</button>
 
@@ -56,10 +65,14 @@
             ochki += 146458222352436576
             ochk.textContent = ochki
         }
+        function rubl() {
+            ochki += 1
+            ochk.textContent = ochki
+        }
         function remont() {
-            if (ochki >= 150000000000000) {
+            if (ochki >= 15000000000) {
 
-                ochki -= 150000000000000
+                ochki -= 15000000000
                 ochki += nalogi
                 ochk.textContent = ochki
             }
@@ -69,9 +82,9 @@
         }
         function bon() {
 
-            if (ochki >= 2000000000000000) {
+            if (ochki >= 2000000000000) {
 
-                ochki -= 2000000000000000
+                ochki -= 2000000000000
                 ochki += nalogi
                 ochk.textContent = ochki
             }
