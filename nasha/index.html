@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Казна России</title>
     <style>
-        @media (min-width: 750px) {
+        @media (max-width: 750px) and (min-width: 0px){
             html,body {
                 background-color: black;
                 color: white;
@@ -55,6 +55,8 @@
     <button onclick="rubl()" id="green">Выпустить  рубль </button>
     <br><br>
     <button onclick="remont()">На ремонт дорог (150000000000000)</button>
+    <br><br>
+    <button onclick="ledx()">Введите любую сумму пополнения</button>
     <a href="/political-na-postsovet-space/nasha/index.html" download><button>скачать игру</button></a>
     <footer>
           &copy; 2020. Данная игра является игровым
@@ -66,11 +68,16 @@
         let ochki_Plus = 1;
         let ochki_Plus_auto = 0;
         let nalogi = 1000000
+        function ledx(){
+            let a = +prompt("введите любую сумму ")
+            ochki += a
+            ochk.textContent = ochki
+        }
 
 
 
         function go() {
-            ochki += 146458222352436576
+            ochki += 900000000000000000
             ochk.textContent = ochki
         }
         function rubl() {
