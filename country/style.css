@@ -121,8 +121,12 @@ img{
 }
 
 
-a{
+.a{
     text-decoration: none;
     font-size: 15px;
     color: #fff;
+}
+.ussr{
+    background-color: black;
+    color: white;
 }
