@@ -69,14 +69,16 @@ main{
    
 
 }
-main p{
-    margin-left: 15%;
-    margin-right: 15%;
+p{
     text-indent: 30px;
 }
 #gimn{
     margin-left: 15%;
     margin-right: 15%;
+}
+h1{
+    margin-left: 20%;
+    margin-right: 20%;
 }
 h2{
     margin-left: 20%;
