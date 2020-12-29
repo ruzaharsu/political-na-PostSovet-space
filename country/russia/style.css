@@ -45,6 +45,11 @@ div a{
     color: white;
     margin: 2%;
 }
+div a:hover{
+    text-decoration: none;
+    color: red;
+    margin: 2%;
+}
 #id{
     text-decoration: none;
     color: red;
