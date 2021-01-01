@@ -134,3 +134,18 @@ img{
     background-color: black;
     color: white;
 }
+
+#bpart{
+    float: left; 
+    width:  20px;
+    height: 20px;
+    background: red;
+
+}
+#part{
+    float: left; 
+    width:  20px;
+    height: 20px;
+    background: blue;
+
+}
