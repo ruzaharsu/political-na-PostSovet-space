@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
-body, html{
-    
+
+body, html {
     font-family: Arial, Helvetica, sans-serif;
     text-align: auto;
     background-color: black;
@@ -11,7 +11,7 @@ body, html{
     height: 100%;
 }
 
-header{
+header {
     color: white;
     background-color: #155a15;
     width: 100%;
@@ -22,7 +22,8 @@ header{
     align-items: center;
     flex-wrap: wrap;
 }
-header div{
+
+header div {
     color: white;
     background-color: #1c771c;
     width: 100%;
@@ -32,20 +33,21 @@ header div{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    
-    
 }
-header a{
+
+header a {
     text-decoration: none;
     color: white;
     margin: 2%;
 }
-#id{
+
+#id {
     text-decoration: none;
     color: red;
     margin: 2%;
 }
-#nav-country{
+
+#nav-country {
     color: white;
     background-color: #155a15;
     width: 100%;
@@ -56,73 +58,97 @@ header a{
     align-items: center;
     flex-wrap: wrap;
 }
-header a:hover{
+
+header a:hover {
     text-decoration: none;
     color: red;
 }
 
-main{
-    background-color:black;
-    color:white;
+main {
+    background-color: black;
+    color: white;
     width: 100%;
     height: auto;
-   
-
 }
-p{
+
+p {
     text-indent: 30px;
 }
-#gimn{
+
+#gimn {
     margin-left: 15%;
     margin-right: 15%;
 }
-h1{
+
+h1 {
     margin-left: 20%;
     margin-right: 20%;
 }
-h2{
+
+h2 {
     margin-left: 20%;
     margin-right: 20%;
 }
-h3{
+
+h3 {
     margin-left: 20%;
     margin-right: 20%;
     font-weight: 600;
 }
-hr{
+
+hr {
     color: white;
 }
-footer{
+
+footer {
     width: 100%;
     height: 50px;
-    background: #dad9d9 ;
+    background: #dad9d9;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     font-size: 15px;
     color: #3d3d3d;
 }
-footer a:hover{
+
+footer a:hover {
     text-decoration: none;
     color: red;
 }
-img{
-    float: right; /* Обтекание картинки по левому краю */
-    padding-left: 10px; /* Отступ слева */
-    padding-bottom: 10px; /* Отступ снизу */
-} 
-#ussr{
-    padding-left:0px; /* Отступ слева */
-    padding-bottom: 0px; /* Отступ снизу */
+
+img {
+    float: right;
+    /* Обтекание картинки по левому краю */
+    padding-left: 10px;
+    /* Отступ слева */
+    padding-bottom: 10px;
+    /* Отступ снизу */
 }
 
+#ussr {
+    padding-left: 0px;
+    /* Отступ слева */
+    padding-bottom: 0px;
+    /* Отступ снизу */
+}
 
-audio{
+.ussr {
+    color: white;
+}
+
+audio {
     border-radius: 0px;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+#circle {
+    width: 20px;
+    height: 20px;
+    background: #7fee1d;
 }
