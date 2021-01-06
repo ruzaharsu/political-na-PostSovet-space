@@ -4,9 +4,17 @@
 }
 header{
     width: 240px;
-    height: auto;
-    background: #155454;
+    background-color: brown;
 }
 main{
     width: 240px;
+    background-color: #552343;
+}
+footer{
+    width: 240px;
+    background-color: darkblue;
+}
+body, html{
+    background: black;
+    color: white;
 }
