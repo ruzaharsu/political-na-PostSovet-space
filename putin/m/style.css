@@ -1,0 +1,12 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    width: 240px;
+    height: auto;
+    background: #155454;
+}
+main{
+    width: 240px;
+}
