@@ -120,7 +120,7 @@ footer a:hover{
     text-decoration: none;
     color: red;
 }
-img{
+.photo{
     float: right; /* Обтекание картинки по левому краю */
     padding-left: 10px; /* Отступ слева */
     padding-bottom: 10px; /* Отступ снизу */
