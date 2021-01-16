@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заметки на кухне</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            font-size: 2.3vh;
+            transition: 0.5s;
+            background-image: linear-gradient(to top right, rgb(51, 0, 0), rgb(55, 9, 9), rgb(58, 9, 9), rgb(62, 8, 8), rgb(65, 42, 8), rgb(81, 8, 8), rgb(8, 72, 98), rgb(8, 76, 114), rgb(8, 79, 130), rgb(7, 83, 146), rgb(7, 86, 163), rgb(7, 90, 179));
+            color: white;
+        }
+
+        #app {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+        }
+        button{
+            width: 100%;
+            background: #0000;
+            font-size: 15pt;
+            border: 0px;
+            color: white;
+        }
+        ul {
+            justify-content: flex-start;
+            margin: 2vh auto;
+            padding: 1vh 2vw;
+            flex-grow: 1;
+            list-style: none;
+            max-height: 60%;
+            overflow-y: scroll;
+            word-wrap: break-word;
+            width: 90%;
+        }
+        li:hover{
+            color: red;
+            transition: 0.5s;
+        }
+        li::after {
+            content: "----------------------------------------";
+        }
+        textarea {
+            border-radius: 10px;
+            max-width: 100%;
+            font-size: 2vh;
+            content: "СЛАВА СССР";
+        }
+        #footer{
+            margin-bottom: 3vh;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div>
+            <h1>Заметки на кухне: <br> <small>КГБ следит за вами</small></h1>
+            <textarea type="text" @keyup.enter="add" v-model='note' cols="100" rows="3" >СЛАВА СССР</textarea>
+            <br>
+            <button @click="add">
+                Добавить запись на кухню
+            </button>
+        </div>
+        <ul>
+            <li v-for='(item, id) in toDo.slice().reverse()' @click='del(id)'>{{item}}<br></li>
+        </ul>
+        <div v-if='deleted' id="footer">
+            <h3>Вычеркнутые заметки: </h3>
+            <p @click='note = deleted; deleted=""'>{{deleted}}
+                <br>
+                <u @click='deleted=""'>del</u>
+            </p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script>
+        const App = {
+            el: '#app',
+            data() {
+                return {
+                    note: '',
+                    toDo: ['погулять с собакой', 'пройти курсы программирования'],
+                    deleted: ''
+                }
+            },
+            methods: {
+                add: function () {
+                    if (this.note[0] === '\n') this.note = '';
+                    if (this.note !== '') {
+                        this.toDo.push(this.note);
+                        this.note = '';
+                        this.save();
+                    }
+                },
+                del: function (item) {
+                    item = this.toDo.length - item - 1
+                    this.deleted = this.toDo[item];
+                    this.toDo.splice(item, 1);
+                    this.save();
+                },
+                save: function () {
+                    localStorage['toDo'] = JSON.stringify(this.toDo)
+                },
+
+            },
+            mounted() {
+                if (localStorage['toDo'] !== undefined) {
+                    this.toDo = JSON.parse(localStorage['toDo']);
+                }
+
+            },
+        }
+        Vue.createApp(App).mount('#app')
+    </script>
+</body>
+
+</html>
