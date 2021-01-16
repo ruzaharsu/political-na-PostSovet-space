@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+        integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+</head>
+
+<body>
+    <script type="text/javascript">
+        setInterval(function () {
+            date = new Date(),
+                h = date.getHours(),
+                m = date.getMinutes(),
+                s = date.getSeconds(),
+                h = (h < 10) ? '0' + h : h,
+                m = (m < 10) ? '0' + m : m,
+                s = (s < 10) ? '0' + s : s,
+                document.getElementById('time').innerHTML = h + ':' + m;
+        }, 1000);
+    </script>
+    
+
+    <span style="color:#000000; width: auto;">
+        <span id="time">00:00:00</span>
+    </span>
+</body>
+
+</html>
