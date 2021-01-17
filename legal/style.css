@@ -40,6 +40,26 @@ header a{
     color: white;
     margin: 2%;
 }
+div a{
+    text-decoration: none;
+    color: white;
+    margin: 2%;
+}
+.sos{
+    text-decoration: none;
+    color: white;
+    margin: 0%;
+}
+.sos:hover{
+    text-decoration: none;
+    color: red;
+    margin: 0%;
+}
+div a:hover{
+    text-decoration: none;
+    color: red;
+    margin: 2%;
+}
 #id{
     text-decoration: none;
     color: red;
@@ -66,9 +86,9 @@ main{
     color:white;
     width: 100%;
     height: auto;
+   
+
 }
-
-
 p{
     text-indent: 30px;
 }
@@ -110,32 +130,38 @@ footer a:hover{
     text-decoration: none;
     color: red;
 }
-
+.photo{
+    float: right; /* Обтекание картинки по левому краю */
+    padding-left: 10px; /* Отступ слева */
+    padding-bottom: 10px; /* Отступ снизу */
+} 
 #ussr{
     padding-left:0px; /* Отступ слева */
     padding-bottom: 0px; /* Отступ снизу */
 }
 
-
-.a{
-    text-decoration: none;
-    font-size: 15px;
-    color: #fff;
-}
 .ussr{
     background-color: black;
     color: white;
 }
-.kal{
-    width: 100%;
+
+#bpart{
+    float: left; 
+    width:  20px;
+    height: 20px;
+    background: red;
+
 }
-div a{
-    text-decoration: none;
-    color: white;
-    margin: 2%;
+#part{
+    float: left; 
+    width:  20px;
+    height: 20px;
+    background: blue;
+
 }
-div a:hover{
-    text-decoration: none;
-    color: red;
-    margin: 2%;
+.center{
+    text-align: center;
 }
+
+
+
