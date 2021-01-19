@@ -139,3 +139,6 @@ div a:hover{
     color: red;
     margin: 2%;
 }
+footer >div{
+    text-align: center;
+}
