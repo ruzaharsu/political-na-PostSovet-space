@@ -23,12 +23,14 @@ body, html{
 
 
 button{
-    
+   font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
    
   
     border-color: #45859600;
     border: solid 0px;
 }
+
 button:hover{
     background: red;
     color: white;
