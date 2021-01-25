@@ -163,8 +163,8 @@ footer>div {
     color: white;
     text-align: center;
     background-color: rgb(51, 51, 51);
-    border: solid 1px;
-    border-radius: 20px;
+    border: solid 5px;
+    border-radius: 40px;
 }
 
 .glava {

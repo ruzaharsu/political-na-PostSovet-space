@@ -168,11 +168,34 @@ footer a:hover{
 }
 .president{
     color: white;
-background-color: rgb(51, 51, 51);
-border: solid 1px;
-border-radius: 20px;
+background: rgb(51, 51, 51) ;
+
+border-radius: 40px;
+animation: presid 30s infinite;
 
 
+}
+@keyframes presid{
+    0%{
+        background: white;
+        color: black;
+    }
+    25%{
+        background: #0039A6;
+        color: white;
+    }
+    50%{
+        background: #D52B1E;
+        color: white;
+    }
+    75%{
+        background: #0039A6;
+        color: white;
+    }
+    100%{
+        background: white;
+        color: black;
+    }
 }
 .elsin{
 
