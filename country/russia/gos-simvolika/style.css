@@ -166,3 +166,29 @@ footer a:hover{
 .flags{
     color: white;
 }
+.president{
+    color: white;
+background-color: rgb(51, 51, 51);
+border: solid 1px;
+border-radius: 20px;
+
+
+}
+.elsin{
+
+    text-align: center;
+    
+    
+}
+.putin{
+    text-align: center;
+    margin: 1%;
+}
+.medvedev{
+    text-align: center;
+    margin: 1%;
+}
+.pres {
+    border-radius: 20px;
+    width: 250px;
+}

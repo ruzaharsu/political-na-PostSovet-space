@@ -119,6 +119,7 @@ footer a:hover{
     float: right; /* Обтекание картинки по левому краю */
     padding-left: 10px; /* Отступ слева */
     padding-bottom: 10px; /* Отступ снизу */
+  width: 250px;
 } 
 #ussr{
     padding-left:0px; /* Отступ слева */
@@ -131,4 +132,15 @@ footer a:hover{
 }
 .gimn{
     text-align: center;
+}
+.president{
+    color: white;
+background-color: rgb(51, 51, 51);
+border: solid 1px;
+border-radius: 20px;
+}
+.lukashenko{
+margin: 1%;
+    text-align: center;
+    
 }
