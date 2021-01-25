@@ -216,4 +216,22 @@ animation: presid 30s infinite;
     border: solid 5px;
     border-color:  red;
     width: 250px;
+    animation: prewe 30s infinite;
+}
+@keyframes prewe{
+    0%{
+        border-color:  red;
+    }
+    25%{
+        border-color:  red;
+    }
+    50%{
+        border-color: #0039A6;
+    }
+    75%{
+        border-color:  red;
+    }
+    100%{
+        border-color:  red;
+    }
 }
