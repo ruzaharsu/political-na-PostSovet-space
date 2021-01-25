@@ -176,4 +176,7 @@ footer>div {
 .pres {
     border-radius: 20px;
     width: 250px;
+    
+    border: solid 5px;
+    border-color:  red;
 }

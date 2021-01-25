@@ -190,5 +190,7 @@ border-radius: 20px;
 }
 .pres {
     border-radius: 20px;
+    border: solid 5px;
+    border-color:  red;
     width: 250px;
 }
