@@ -125,11 +125,13 @@ footer a:hover{
     float: right; /* Обтекание картинки по левому краю */
     padding-left: 10px; /* Отступ слева */
     padding-bottom: 10px; /* Отступ снизу */
+    width: 250px;
 } 
 .photol{
     float: left; /* Обтекание картинки по левому краю */
     padding-left: 10px; /* Отступ слева */
     padding-bottom: 10px; /* Отступ снизу */
+    width: 250px;
 }
 #ussr{
     padding-left:0px; /* Отступ слева */
