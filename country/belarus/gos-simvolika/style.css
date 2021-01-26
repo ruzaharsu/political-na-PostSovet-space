@@ -136,8 +136,9 @@ footer a:hover{
 .president{
     color: white;
 background-color: rgb(51, 51, 51);
-border: solid 1px;
+border: solid 5px;
 border-radius: 20px;
+text-align: center;
 }
 .lukashenko{
 margin: 1%;
