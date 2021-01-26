@@ -211,6 +211,9 @@ animation: presid 5s infinite;
     text-align: center;
     margin: 1%;
 }
+.ty{
+    text-indent: 0px;
+}
 .pres {
     border-radius: 20px;
     border: solid 5px;
