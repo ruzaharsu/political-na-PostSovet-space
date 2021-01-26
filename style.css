@@ -96,12 +96,13 @@ hr{
 }
 footer{
     width: 100%;
-    height: 50px;
+    height: auto;
     background: #dad9d9 ;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+
 }
 footer a{
     text-decoration: none;
@@ -131,4 +132,19 @@ audio{
 .player video{
     position: absolute;
    
+}
+video{
+    border-radius: 25px;
+}
+.polzovatel{
+    
+    height: auto;
+    width: 250px;
+}
+.country{
+    height: auto;
+}
+ul{
+    
+    list-style: none;
 }

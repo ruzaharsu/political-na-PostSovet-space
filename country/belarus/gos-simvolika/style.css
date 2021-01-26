@@ -144,3 +144,10 @@ margin: 1%;
     text-align: center;
     
 }
+.pres {
+    border-radius: 20px;
+    border: solid 5px;
+    border-color:  red;
+    width: 250px;
+    animation: prewe 5s infinite;
+}
