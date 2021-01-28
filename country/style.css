@@ -150,6 +150,16 @@ div a:hover {
     color: red;
     margin: 2%;
 }
+.sos{
+    text-decoration: none;
+    color: white;
+    margin: 0%;
+}
+.sos:hover{
+    text-decoration: none;
+    color: red;
+    margin: 0%;
+}
 
 footer>div {
     text-align: center;
@@ -193,4 +203,11 @@ footer>div {
     border-radius: 20px;
     border: solid 5px;
     border-color: red;
+}
+
+.rf {
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
 }
