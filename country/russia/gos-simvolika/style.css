@@ -159,6 +159,10 @@ background: rgb(51, 51, 51) ;
 
 border-radius: 40px;
 animation: presid 5s infinite;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
 
 
 }

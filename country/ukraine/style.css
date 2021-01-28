@@ -152,3 +152,9 @@ audio {
     height: 20px;
     background: #7fee1d;
 }
+.photo{
+    float: right; /* Обтекание картинки по левому краю */
+    padding-left: 10px; /* Отступ слева */
+    padding-bottom: 10px; /* Отступ снизу */
+    width: 150px;
+} 
