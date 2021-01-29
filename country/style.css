@@ -205,9 +205,15 @@ footer>div {
     border-color: red;
 }
 
+.rf-flags {
+    width: 250px;
+    text-align: center;
+    margin: auto;
+ border-radius: 20px;
+}
 .rf {
     width: 250px;
     text-align: center;
     margin: auto;
-    border-radius: 20px;
+ 
 }
