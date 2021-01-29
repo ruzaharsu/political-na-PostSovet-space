@@ -30,6 +30,9 @@ div a{
     text-decoration: none;
     color: white;
 }
+div a:hover{
+    color: red;
+}
 b{
     font-size: 16pt;
 }
