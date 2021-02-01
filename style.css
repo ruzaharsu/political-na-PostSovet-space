@@ -114,9 +114,8 @@ footer a:hover{
     color: red;
 }
 img{
-    float: right; /* Обтекание картинки по левому краю */
-    padding-left: 10px; /* Отступ слева */
-    padding-bottom: 10px; /* Отступ снизу */
+    border-radius: 20px;
+    width: 100%;
 } 
 #ussr{
     padding-left:0px; /* Отступ слева */
