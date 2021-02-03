@@ -6,8 +6,8 @@ body, html{
     
     font-family: Arial, Helvetica, sans-serif;
     text-align: auto;
-    background: black;
-    font-size: 14px;
+    background-color: black;
+    font-size: 15px;
     height: 100%;
 }
 
@@ -40,6 +40,16 @@ header a{
     color: white;
     margin: 2%;
 }
+div a{
+    text-decoration: none;
+    color: white;
+    margin: 2%;
+}
+div a:hover{
+    text-decoration: none;
+    color: red;
+    margin: 2%;
+}
 #id{
     text-decoration: none;
     color: red;
@@ -69,12 +79,17 @@ main{
    
 
 }
-main p{
-    margin-left: 15%;
-    margin-right: 15%;
+p{
     text-indent: 30px;
 }
-
+#gimn{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+h1{
+    margin-left: 20%;
+    margin-right: 20%;
+}
 h2{
     margin-left: 20%;
     margin-right: 20%;
@@ -83,13 +98,14 @@ h3{
     margin-left: 20%;
     margin-right: 20%;
     font-weight: 600;
+    text-align: center;
 }
 hr{
     color: white;
 }
 footer{
     width: 100%;
-    height: 50px;
+    height: auto;
     background: #dad9d9 ;
     display: flex;
     justify-content: space-around;
@@ -105,23 +121,112 @@ footer a:hover{
     text-decoration: none;
     color: red;
 }
-
-
-
-audio{
-    border-radius: 0px;
-    margin-left: 20%;
-    margin-right: 20%;
+.photo{
+    float: right; /* Обтекание картинки по левому краю */
+    padding-left: 10px; /* Отступ слева */
+    padding-bottom: 10px; /* Отступ снизу */
+    width: 250px;
+} 
+.photol{
+    float: left; /* Обтекание картинки по левому краю */
+    padding-left: 10px; /* Отступ слева */
+    padding-bottom: 10px; /* Отступ снизу */
+    width: 250px;
 }
-#social{
+
+#ussr{
+    padding-left:0px; /* Отступ слева */
+    padding-bottom: 0px; /* Отступ снизу */
+}
+
+.ussr{
+    background-color: black;
+    color: white;
+}
+
+
+.center{
     text-align: center;
 }
-div a{
-    text-decoration: none;
+.gimn{
+    text-align: center;
+}
+.flags{
     color: white;
+}
+.president{
+    color: white;
+background: rgb(51, 51, 51) ;
+
+border-radius: 40px;
+animation: presid 5s infinite;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+
+
+}
+@keyframes presid{
+    0%{
+        background: white;
+        color: black;
+    }
+    25%{
+        background: #0039A6;
+        color: white;
+    }
+    50%{
+        background: #D52B1E;
+        color: white;
+    }
+    75%{
+        background: #0039A6;
+        color: white;
+    }
+    100%{
+        background: white;
+        color: black;
+    }
+}
+.elsin{
+
+    text-align: center;
+    
     
 }
-div a:hover{
-    text-decoration: none;
-    color: red;
+.putin{
+    text-align: center;
+    margin: 1%;
+}
+.medvedev{
+    text-align: center;
+    margin: 1%;
+}
+.ty{
+    text-indent: 0px;
+}
+.pres {
+    border-radius: 20px;
+    border: solid 5px;
+    border-color:  red;
+    width: 250px;
+    animation: prewe 5s infinite;
+}
+@keyframes prewe{
+    0%{
+        border-color:  red;
+    }
+    25%{
+        border-color:  red;
+    }
+    50%{
+        border-color: #0039A6;
+    }
+    75%{
+        border-color:  red;
+    }
+    100%{
+        border-color:  red;
+    }
 }
