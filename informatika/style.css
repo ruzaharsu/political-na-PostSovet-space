@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body, html{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: auto;
+    background-color: black;
+    font-size: 15px;
+    height: 100%;
+}
+
+header{
+    color: white;
+    background-color: #155a15;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header div{
+    color: white;
+    background-color: #1c771c;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+header a{
+    text-decoration: none;
+    color: white;
+    margin: 2%;
+}
+#id{
+    text-decoration: none;
+    color: red;
+    margin: 2%;
+}
+#nav-country{
+    color: white;
+    background-color: #155a15;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+main{
+    background-color:black;
+    color:white;
+    width: 100%;
+    height: auto;
+   
+
+}
+main p{
+    margin-left: 15% ;
+    margin-right: 15% ;
+    text-indent: 30px;
+}
+#gimn{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+h1{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+h2{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+h3{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: 600;
+}
+hr{
+    color: white;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background: #dad9d9 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+footer a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #3d3d3d;
+}
+footer a:hover{
+    text-decoration: none;
+    color: red;
+}
+img{
+    border-radius: 20px;
+    width: 100%;
+} 
+#ussr{
+    padding-left:0px; /* Отступ слева */
+    padding-bottom: 0px; /* Отступ снизу */
+}
+
+
+audio{
+    border-radius: 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.player video{
+    position: absolute;
+   
+}
+video{
+    border-radius: 25px;
+}
+.polzovatel{
+    
+    height: auto;
+    
+}
+.country{
+    height: auto;
+}
+ul{
+    
+    list-style: none;
+}
+img{
+    background: white;
+}
