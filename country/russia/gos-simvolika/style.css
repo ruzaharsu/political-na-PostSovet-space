@@ -133,6 +133,10 @@ footer a:hover{
     padding-bottom: 10px; /* Отступ снизу */
     width: 250px;
 }
+img{
+    width: 100%;
+    border-radius: 20px;
+}
 #ussr{
     padding-left:0px; /* Отступ слева */
     padding-bottom: 0px; /* Отступ снизу */
