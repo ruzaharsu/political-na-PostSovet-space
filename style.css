@@ -21,6 +21,8 @@ header{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+
+    
 }
 header div{
     color: white;

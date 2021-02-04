@@ -129,7 +129,7 @@ footer a:hover{
 } 
 .photol{
     float: left; /* Обтекание картинки по левому краю */
-    padding-left: 10px; /* Отступ слева */
+    padding-right: 10px; /* Отступ слева */
     padding-bottom: 10px; /* Отступ снизу */
     width: 250px;
 }
