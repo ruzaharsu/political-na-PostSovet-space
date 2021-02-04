@@ -125,7 +125,10 @@ footer a:hover{
     padding-left:0px; /* Отступ слева */
     padding-bottom: 0px; /* Отступ снизу */
 }
-
+img{
+    width: 100%;
+    border-radius: 20px;
+}
 .ussr{
     background-color: black;
     color: white;
