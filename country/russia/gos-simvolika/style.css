@@ -40,12 +40,13 @@ header a{
     color: white;
     margin: 2%;
 }
-div a{
+div a {
     text-decoration: none;
     color: white;
     margin: 2%;
 }
-div a:hover{
+
+div a:hover {
     text-decoration: none;
     color: red;
     margin: 2%;
@@ -112,7 +113,7 @@ footer{
     align-items: center;
     flex-wrap: wrap;
 }
-footer a{
+footer  div  a{
     text-decoration: none;
     font-size: 15px;
     color: #3d3d3d;

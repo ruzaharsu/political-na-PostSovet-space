@@ -96,23 +96,22 @@ h3 {
     font-weight: 600;
 }
 
-footer {
+footer{
     width: 100%;
-    height: 50px;
-    background: #dad9d9;
+    height: auto;
+    background: #dad9d9 ;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    text-align: left;
 }
-
-footer a {
+footer  div  a{
     text-decoration: none;
     font-size: 15px;
     color: #3d3d3d;
 }
-
-footer a:hover {
+footer a:hover{
     text-decoration: none;
     color: red;
 }
@@ -161,9 +160,7 @@ div a:hover {
     margin: 0%;
 }
 
-footer>div {
-    text-align: center;
-}
+
 
 .president {
     color: white;
