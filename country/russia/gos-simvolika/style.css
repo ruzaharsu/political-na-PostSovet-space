@@ -234,3 +234,17 @@ flex-wrap: wrap;
         border-color:  red;
     }
 }
+.kek{
+background: url("flag-of-Russia.png");
+background-size: 100%;
+
+}
+.kek-2{
+    color: white;
+}
+.kek-3{
+    color: white;
+}
+.kek-3:hover{
+    color: blue;
+}
