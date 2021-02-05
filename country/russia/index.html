@@ -304,18 +304,7 @@
 
             </p>
             <p>
-                <!-- Put this script tag to the <head> of your page -->
-<script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
 
-<script type="text/javascript">
-  VK.init({apiId: 7752244, onlyWidgets: true});
-</script>
-
-<!-- Put this div tag to the place, where the Like block will be -->
-<div id="vk_like"></div>
-<script type="text/javascript">
-VK.Widgets.Like("vk_like", {type: "full", verb: 1});
-</script>
             </p>
 
 
@@ -324,7 +313,21 @@ VK.Widgets.Like("vk_like", {type: "full", verb: 1});
     <footer>
 
 
+
+
         <div class="container">
+            <!-- Put this script tag to the <head> of your page -->
+            <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+
+            <script type="text/javascript">
+                VK.init({ apiId: 7752244, onlyWidgets: true });
+            </script>
+
+            <!-- Put this div tag to the place, where the Like block will be -->
+            <div id="vk_like"></div>
+            <script type="text/javascript">
+                VK.Widgets.Like("vk_like", { type: "button" });
+            </script>
             <hr>
             <div class="row">
                 <div class="col-sm">
