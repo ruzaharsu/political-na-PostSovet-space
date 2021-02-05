@@ -124,16 +124,34 @@ footer a:hover{
 }
 .photo{
     float: right; /* Обтекание картинки по левому краю */
-    padding-left: 10px; /* Отступ слева */
-    padding-bottom: 10px; /* Отступ снизу */
+ margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px; /* Отступ снизу */
     width: 250px;
+    border: solid 1px;
+    border-radius: 15px;
 } 
 .photol{
     float: left; /* Обтекание картинки по левому краю */
-    padding-right: 10px; /* Отступ слева */
-    padding-bottom: 10px; /* Отступ снизу */
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px; /* Отступ снизу */
     width: 250px;
+    border: solid 1px;
+border-radius: 15px;
 }
+.plotnost{
+    float: left; /* Обтекание картинки по левому краю */
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px; /* Отступ снизу */
+    width: 350px;
+    border: solid 1px;
+    border-radius: 15px;
+} 
 img{
     width: 100%;
     border-radius: 20px;
@@ -170,6 +188,11 @@ align-items: center;
 flex-wrap: wrap;
 
 
+}
+.preside{
+    border-radius: 20px;
+    border: solid 1px;
+    padding: 10px;
 }
 @keyframes presid{
     0%{
