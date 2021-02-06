@@ -148,6 +148,12 @@ footer a:hover{
 .center{
     text-align: center;
 }
+.center a{
+    margin: 0px;
+}
+.center a:hover{
+    margin: 0px;
+}
 .gimn{
     text-align: center;
 }
