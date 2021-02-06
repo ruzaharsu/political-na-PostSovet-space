@@ -179,7 +179,11 @@ div a:hover {
     align-items: center;
     flex-wrap: wrap;
 }
-
+.preside{
+    border-radius: 20px;
+    border: solid 1px;
+    padding: 10px;
+}
 .glava {
     margin: 1%;
 }
