@@ -3,6 +3,22 @@
     padding: 0%;
 }
 
+@media (max-width: 750px) and (min-width: 0px) {
+    main {
+        background: rgb(213, 43, 30);
+        background: linear-gradient(45deg, rgba(213, 43, 30, 1) 0%, rgba(0, 57, 166, 1) 51%, rgba(255, 255, 255, 1) 100%);
+        color: black;
+    }
+    
+}
+
+@media (min-width: 750px) {
+    main {
+        background-color: black;
+        color: white;
+    }
+}
+
 body, html {
     font-family: Arial, Helvetica, sans-serif;
     text-align: auto;
@@ -41,18 +57,6 @@ header a {
     margin: 2%;
 }
 
-div a {
-    text-decoration: none;
-    color: white;
-    margin: 2%;
-}
-
-div a:hover {
-    text-decoration: none;
-    color: red;
-    margin: 2%;
-}
-
 #id {
     text-decoration: none;
     color: red;
@@ -78,9 +82,18 @@ header a:hover {
 
 main {
     background-color: black;
-    color: white;
     width: 100%;
     height: auto;
+}
+
+main a {
+    text-decoration: none;
+    color: white;
+}
+
+main a:hover {
+    text-decoration: none;
+    color: red;
 }
 
 p {
@@ -210,6 +223,8 @@ img {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    border: solid 2px;
+    border-color: black;
 }
 
 .preside {
@@ -307,8 +322,6 @@ img {
 }
 
 audio::-webkit-media-controls-panel {
-    background: rgb(213, 43, 30) ;
+    background: rgb(213, 43, 30);
     background: linear-gradient(315deg, rgba(213, 43, 30, 1) 0%, rgba(0, 57, 166, 1) 51%, rgba(255, 255, 255, 1) 100%);
-
 }
-
