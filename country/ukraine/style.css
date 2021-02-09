@@ -13,7 +13,7 @@ body, html {
 
 main {
     background: rgb(255,204,0);
-    background: linear-gradient(0deg, rgba(255,204,0,1) 50%, rgba(0,102,204,1) 50%);
+    background: linear-gradient(45deg, rgba(255,204,0,1) 40%, rgba(0,102,204,1) 60%);
     color: black;
     width: 100%;
     height: auto;
@@ -75,10 +75,8 @@ hr {
     color: black;
 }
 
-audio {
-    border-radius: 0px;
-    margin-left: 20%;
-    margin-right: 20%;
+.terd{
+    text-align: center;
 }
 
 #circle {
@@ -89,4 +87,8 @@ audio {
 .trf{
     padding: 10px;
     background: rgba(161, 161, 161, 0.39);
+}
+audio::-webkit-media-controls-panel {
+    background: rgb(255,204,0);
+    background: linear-gradient(315deg, rgba(255,204,0,1) 40%, rgba(0,102,204,1) 60%);
 }
