@@ -75,11 +75,21 @@ header a:hover {
     text-decoration: none;
     color: red;
 }
+.sos{
+    text-decoration: none;
+    color: white;
+    margin: 0%;
+}
+.sos:hover{
+    text-decoration: none;
+    color: red;
+    margin: 0%;
+}
 
 main {
     background: rgb(9,94,121);
     background: linear-gradient(90deg, rgba(9,94,121,1) 0%, rgba(0,22,36,1) 100%);
-        color: wheat;
+        color: white;
     width: 100%;
     height: auto;
 }
