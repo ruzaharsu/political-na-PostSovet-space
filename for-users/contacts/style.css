@@ -274,3 +274,9 @@ footer a:hover {
         border-color: red;
     }
 }
+ul a{
+    margin: 0%;
+}
+ul a:hover{
+    margin: 0%;
+}
