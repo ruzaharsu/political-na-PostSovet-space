@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota&family=Rubik+Mono+One&family=Ruslan+Display&family=Stalinist+One&display=swap');
 header {
     color: white;
     background-color: #155a15;
     width: 100%;
     height: auto;
     display: flex;
-    font-size: 20px;
+    font-size: 20pt;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    font-family: 'Bellota', cursive;
 }
 
 header div {
@@ -50,6 +52,9 @@ header a:hover {
     color: red;
 }
 
+main{
+    font-family: 'Bellota', cursive;
+}
 footer {
     width: 100%;
     height: auto;
@@ -58,6 +63,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    font-family: 'Bellota', cursive;
 }
 
 footer a {
@@ -70,3 +76,4 @@ footer a:hover {
     text-decoration: none;
     color: red;
 }
+

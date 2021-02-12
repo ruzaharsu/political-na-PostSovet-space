@@ -12,35 +12,7 @@ body, html{
     height: 100%;
 }
 
-header{
-    color: white;
-    background-color: #155a15;
-    width: 100%;
-    height: auto;
-    display: flex;
-    font-size: 20px;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-header div{
-    color: white;
-    background-color: #1c771c;
-    width: 100%;
-    height: auto;
-    display: flex;
-    font-size: 17px;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    
-    
-}
-header a{
-    text-decoration: none;
-    color: white;
-    margin: 2%;
-}
+
 div a{
     text-decoration: none;
     color: white;
