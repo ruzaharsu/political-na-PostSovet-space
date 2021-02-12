@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota&family=Rubik+Mono+One&family=Ruslan+Display&family=Stalinist+One&display=swap');
+header {
+    color: white;
+    background-color: #155a15;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 20pt;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Bellota', cursive;
+}
+
+header div {
+    color: white;
+    background-color: #1c771c;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin: 2%;
+}
+#id {
+    text-decoration: none;
+    color: red;
+    margin: 2%;
+}
+
+#nav-country {
+    color: white;
+    background-color: #155a15;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+main{
+    font-family: 'Ruslan Display', cursive;
+}
+footer {
+    width: 100%;
+    height: auto;
+    background: #dad9d9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Bellota', cursive;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #3d3d3d;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: red;
+}
+

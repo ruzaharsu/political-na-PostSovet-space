@@ -16,9 +16,9 @@ body, html {
 
 
 main {
-    background: rgb(214,39,24);
-    background: linear-gradient(0deg, rgba(214,39,24,1) 0%, rgba(143,44,74,1) 33%, rgba(0,54,167,1) 33%, rgba(0,54,167,1) 67%, rgba(255,255,255,1) 67%, rgba(255,255,255,1) 100%);
-    color: black;
+    background: rgb(145, 27, 16);
+   
+    color: white;
     width: 100%;
     height: auto;
 }
