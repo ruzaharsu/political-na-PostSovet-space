@@ -72,7 +72,8 @@ header a:hover{
 }
 
 main{
-    background-color:black;
+    background: rgb(120,121,9);
+    background: linear-gradient(90deg, rgba(120,121,9,1) 0%, rgba(122,0,0,1) 100%);
     color:white;
     width: 100%;
     height: auto;
