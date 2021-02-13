@@ -244,6 +244,6 @@ img {
 }
 
 audio::-webkit-media-controls-panel {
-    background: rgb(214,39,24);
-    background: linear-gradient(0deg, rgba(214,39,24,1) 0%, rgba(143,44,74,1) 33%, rgba(0,54,167,1) 33%, rgba(0,54,167,1) 67%, rgba(255,255,255,1) 67%, rgba(255,255,255,1) 100%);
+    background: rgb(172, 32, 19);
+   
 }
