@@ -138,9 +138,9 @@ img {
 
 .president {
     color: white;
-    background: rgb(51, 51, 51);
+    background: rgb(94, 17, 11);
     border-radius: 40px;
-    animation: presid 5s infinite;
+ 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -155,28 +155,7 @@ img {
     padding: 10px;
 }
 
-@keyframes presid {
-    0% {
-        background: white;
-        color: black;
-    }
-    25% {
-        background: #0039A6;
-        color: white;
-    }
-    50% {
-        background: #D52B1E;
-        color: white;
-    }
-    75% {
-        background: #0039A6;
-        color: white;
-    }
-    100% {
-        background: white;
-        color: black;
-    }
-}
+
 
 .elsin {
     text-align: center;
@@ -198,29 +177,12 @@ img {
 
 .pres {
     border-radius: 20px;
-    border: solid 5px;
-    border-color: red;
+
     width: 250px;
-    animation: prewe 5s infinite;
+
 }
 
-@keyframes prewe {
-    0% {
-        border-color: red;
-    }
-    25% {
-        border-color: red;
-    }
-    50% {
-        border-color: #0039A6;
-    }
-    75% {
-        border-color: red;
-    }
-    100% {
-        border-color: red;
-    }
-}
+
 
 .kek {
     background: url("flag-of-Russia.png");
