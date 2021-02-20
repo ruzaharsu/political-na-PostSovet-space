@@ -79,4 +79,15 @@ footer a:hover {
     text-decoration: none;
     color: red;
 }
+footer p{
+    text-indent: 0px;
+}
+.fr{
+    width: 30px;
+    border-radius: 0px;
+}
+.fr:hover{
+    width: 40px;
+}
+
 
