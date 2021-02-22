@@ -80,7 +80,6 @@ footer a {
 footer a:hover {
     text-decoration: none;
     color: red;
-  
 }
 
 footer p {
@@ -107,11 +106,9 @@ footer p {
 
 .rus a:hover {
     color: black;
-
 }
 
 @keyframes tyr {
-
     0% {
         background: rgb(219, 13, 32);
         background: linear-gradient(0deg, rgba(219, 13, 32, 1) 0%, rgba(219, 13, 32, 1) 33%, rgba(1, 141, 233, 1) 33%, rgba(1, 141, 233, 1) 67%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 1) 100%);
@@ -124,5 +121,4 @@ footer p {
         background: rgb(219, 13, 32);
         background: linear-gradient(0deg, rgba(219, 13, 32, 1) 0%, rgba(219, 13, 32, 1) 33%, rgba(1, 141, 233, 1) 33%, rgba(1, 141, 233, 1) 67%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 1) 100%);
     }
-   
 }

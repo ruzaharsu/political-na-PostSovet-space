@@ -249,13 +249,7 @@ audio::-webkit-media-controls-panel {
     background: linear-gradient(0deg, rgba(214,39,24,1) 0%, rgba(143,44,74,1) 33%, rgba(0,54,167,1) 33%, rgba(0,54,167,1) 67%, rgba(255,255,255,1) 67%, rgba(255,255,255,1) 100%);
 }
 
-.fr{
-    width: 20px;
-    border-radius: 0px;
-}
-.fr:hover{
-    width: 30px;
-}
+
 .frd{
     width: auto;
     height: 30px;
