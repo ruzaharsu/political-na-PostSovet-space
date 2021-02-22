@@ -68,6 +68,7 @@ footer {
     flex-wrap: wrap;
     font-family: 'Bellota', cursive;
     color: white;
+    text-align: center;
 }
 
 footer a {
@@ -79,6 +80,7 @@ footer a {
 footer a:hover {
     text-decoration: none;
     color: red;
+  
 }
 
 footer p {
@@ -86,12 +88,8 @@ footer p {
 }
 
 .fr {
-    width: 30px;
-    border-radius: 0px;
-}
-
-.fr:hover {
     width: 40px;
+    border-radius: 0px;
 }
 
 

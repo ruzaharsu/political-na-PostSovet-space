@@ -256,3 +256,11 @@ audio::-webkit-media-controls-panel {
 .fr:hover{
     width: 30px;
 }
+.frd{
+    width: auto;
+    height: 30px;
+}
+.frd:hover{
+    width: auto;
+    height: 40px;
+}
