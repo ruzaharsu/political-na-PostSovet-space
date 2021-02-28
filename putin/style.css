@@ -1,44 +1,241 @@
-
-body, html{
-    background-color: #f5f5f5;
-    font-family: Arial, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Bellota&family=Rubik+Mono+One&family=Ruslan+Display&family=Stalinist+One&display=swap');
+html, body{
+    background: rgb(214,39,24);
+background: linear-gradient(0deg, rgba(214,39,24,1) 0%, rgba(143,44,74,1) 33%, rgba(0,54,167,1) 33%, rgba(0,54,167,1) 67%, rgba(255,255,255,1) 67%, rgba(255,255,255,1) 100%);
 }
-main{
-background-color: #f5f5f5;
-    
-}
-
-.shapka{
-    background-color: #155a15;
-    border-radius: 20px 20px 0px 0px;
-    height: 50px;
-    width: 100%;
-    color: white;
-    text-align: center;
-
-}
-.info{
-    background-color: white;
-    text-align: center;
+header {
+    color: rgb(0, 0, 0);
+    background-color: #155a153f;
     width: 100%;
     height: auto;
-    font-size: 11pt;
-    border-radius: 0px 0px 20px 20px;
-}
-div a{
+    display: flex;
     font-size: 20pt;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Bellota', cursive;
+}
+
+header div {
+    color: white;
+    background-color: #1c771c;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 2%;
+}
+
+#id {
+    text-decoration: none;
+    color: red;
+    margin: 2%;
+}
+
+#nav-country {
+    color: white;
+    background-color: #155a15;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+main {
+    font-family: 'Bellota', cursive;
+    font-size: 16px;
+}
+main {
+    color: black;
+    width: 100%;
+    height: auto;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+main p {
+    text-indent: 30px;
+}
+
+#gimn {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h1 {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h2 {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h3 {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: 600;
+    text-align: center;
+}
+
+hr {
+    color: white;
+}
+
+.photo {
+    float: right;
+    /* Обтекание картинки по левому краю */
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* Отступ снизу */
+    width: 250px;
+ 
+}
+
+.photol {
+    float: left;
+    /* Обтекание картинки по левому краю */
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* Отступ снизу */
+    width: 250px;
+
+}
+.rto{
+    border: solid 1px;
+    border-radius: 15px;
+    border-color: red;
+    height: 100%;
+}
+img {
+    width: 250px;
+    border-radius: 20px;
+  
+text-align: center;
+margin: 1%;
+}
+
+
+
+
+.center {
+    text-align: center;
+}
+
+.gimn {
+    text-align: center;
+}
+
+.flags {
+    color: white;
+}
+
+.flags a {
     text-decoration: none;
     color: white;
 }
-div a:hover{
+footer {
+    width: 100%;
+    height: auto;
+    background: #343c503f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Bellota', cursive;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none;
     color: red;
 }
-b{
-    font-size: 16pt;
+
+footer p {
+    text-indent: 0px;
 }
-.photo{
-    float: left; /* Обтекание картинки по левому краю */
-    padding-left: 10px; /* Отступ слева */
-    padding-bottom: 10px; /* Отступ снизу */
-    width: 150px;
+
+.fr {
+    width: 40px;
+    border-radius: 0px;
+}
+
+
+
+.pres {
+    border-radius: 20px;
+    width: 250px;
+    padding: auto;
+    border: solid 5px;
+    border-color: red;
+}
+
+.press {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+
+}
+
+.rf-flags {
+    width: 250px;
+    text-align: center;
+    margin: auto;
+ border-radius: 20px;
+}
+.rf {
+    width: 250px;
+    text-align: center;
+    margin: auto;
+ 
+}
+.president {
+    color: white;
+    text-align: center;
+   
+    border: solid 5px;
+    border-radius: 50px;
+    border-color: green;
+    border-top-color: green;
+ 
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
