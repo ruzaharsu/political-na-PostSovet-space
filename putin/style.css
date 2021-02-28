@@ -154,7 +154,7 @@ hr {
     height: 100%;
 }
 
-img {
+main img {
     width: 250px;
     border-radius: 20px;
     animation: der 30s infinite;
