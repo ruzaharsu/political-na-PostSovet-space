@@ -1,8 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellota&family=Rubik+Mono+One&family=Ruslan+Display&family=Stalinist+One&display=swap');
-html, body{
-    background: rgb(214,39,24);
-background: linear-gradient(0deg, rgba(214,39,24,1) 0%, rgba(143,44,74,1) 33%, rgba(0,54,167,1) 33%, rgba(0,54,167,1) 67%, rgba(255,255,255,1) 67%, rgba(255,255,255,1) 100%);
+html, body {
+    background: rgb(214, 39, 24);
+    background: linear-gradient(0deg, rgba(214, 39, 24, 1) 0%, rgba(143, 44, 74, 1) 33%, rgba(0, 54, 167, 1) 33%, rgba(0, 54, 167, 1) 67%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 1) 100%);
+animation: alson 3s infinite;
 }
+
+@keyframes alson {
+    0% {
+        background: rgb(214, 39, 24);
+        background: linear-gradient(0deg, rgba(214, 39, 24, 1) 0%, rgba(143, 44, 74, 1) 33%, rgba(0, 54, 167, 1) 33%, rgba(0, 54, 167, 1) 67%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 1) 100%);
+    }
+    50% {
+        background: rgb(255, 214, 0);
+        background: linear-gradient(0deg, rgba(255, 214, 0, 1) 0%, rgba(255, 214, 0, 1) 50%, rgba(0, 91, 188, 1) 50%, rgba(0, 91, 188, 1) 100%);
+    }
+    100% {
+        background: rgb(214, 39, 24);
+        background: linear-gradient(0deg, rgba(214, 39, 24, 1) 0%, rgba(143, 44, 74, 1) 33%, rgba(0, 54, 167, 1) 33%, rgba(0, 54, 167, 1) 67%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 1) 100%);
+    }
+}
+
 header {
     color: rgb(0, 0, 0);
     background-color: #155a153f;
@@ -61,6 +78,7 @@ main {
     font-family: 'Bellota', cursive;
     font-size: 16px;
 }
+
 main {
     color: black;
     width: 100%;
@@ -116,7 +134,6 @@ hr {
     padding: 10px;
     /* Отступ снизу */
     width: 250px;
- 
 }
 
 .photol {
@@ -128,24 +145,29 @@ hr {
     padding: 10px;
     /* Отступ снизу */
     width: 250px;
-
 }
-.rto{
+
+.rto {
     border: solid 1px;
     border-radius: 15px;
     border-color: red;
     height: 100%;
 }
+
 img {
     width: 250px;
     border-radius: 20px;
-  
-text-align: center;
-margin: 1%;
+    animation: der 30s infinite;
 }
 
-
-
+@keyframes der {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(7200deg);
+    }
+}
 
 .center {
     text-align: center;
@@ -163,6 +185,7 @@ margin: 1%;
     text-decoration: none;
     color: white;
 }
+
 footer {
     width: 100%;
     height: auto;
@@ -196,8 +219,6 @@ footer p {
     border-radius: 0px;
 }
 
-
-
 .pres {
     border-radius: 20px;
     width: 250px;
@@ -211,31 +232,30 @@ footer p {
     text-align: center;
     margin: auto;
     border-radius: 20px;
-
 }
 
 .rf-flags {
     width: 250px;
     text-align: center;
     margin: auto;
- border-radius: 20px;
+    border-radius: 20px;
 }
+
 .rf {
     width: 250px;
     text-align: center;
     margin: auto;
- 
 }
+
 .president {
     color: white;
     text-align: center;
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.500) 0%, rgba(0,0,0,0.500) 25%, rgba(205,0,0,0.500) 75%, rgba(205,0,0,0.500) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.500) 0%, rgba(0, 0, 0, 0.500) 25%, rgba(205, 0, 0, 0.500) 75%, rgba(205, 0, 0, 0.500) 100%);
     border: solid 5px;
     border-radius: 50px;
     border-color: green;
     border-top-color: green;
- 
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
