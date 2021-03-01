@@ -14,7 +14,7 @@ header {
 
 header div {
     color: white;
-    background-color: #1c771c;
+    background-color: #134d1360;
     width: 100%;
     height: auto;
     display: flex;
@@ -38,7 +38,7 @@ header a {
 
 #nav-country {
     color: white;
-    background-color: #155a15;
+    background-color: #00000000;
     width: 100%;
     height: auto;
     display: flex;
