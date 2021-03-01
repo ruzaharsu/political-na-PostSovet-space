@@ -155,7 +155,7 @@ main img {
     }
     100%{
         width: 300px;
-        transform: rotate(3600deg) translateX(20px);
+        transform: rotate(3600deg) ;
     }
 }
 
