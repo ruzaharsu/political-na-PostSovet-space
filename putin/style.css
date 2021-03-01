@@ -143,7 +143,7 @@ hr {
 main img {
     width: 250px;
     border-radius: 20px;
-    animation: der 30s infinite;
+    animation: der 749s infinite;
 }
 
 @keyframes der {
