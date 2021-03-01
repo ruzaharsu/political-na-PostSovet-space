@@ -60,6 +60,8 @@ header a {
 header a:hover {
     text-decoration: none;
     color: red;
+    transform: translateY(-10px) rotate(360deg);
+    transition: 2s;
 }
 
 main {
@@ -153,8 +155,10 @@ main img {
     }
     100%{
         width: 300px;
+        transform: rotate(3600deg) translateX(20px);
     }
 }
+
 .putin {
     color: white;
     background: rgb(51, 51, 51);
@@ -241,7 +245,7 @@ footer p {
     text-align: center;
     margin: auto;
     border-radius: 10px;
-    animation: ey 10s;
+    animation: ey 5s;
 }
 @keyframes ey{
     0%{
@@ -249,6 +253,7 @@ footer p {
     }
     100%{
         width: 150px;
+        transform: rotate(-3600deg);
     }
 }
 
@@ -266,31 +271,29 @@ footer p {
     border: solid 5px;
     border-radius: 50px;
     border-color: green;
+ 
+    border-color: #0000;
+  
+   
+       
     border-top-color: green;
+ 
+ 
+      
+        border-right-color: red;
+    
+   
+        border-bottom-color: yellow;
+    
+  
+        border-left-color: blue;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     animation: loadings 12s infinite;
 }
-@keyframes loadings{
-    0%{
-        border-color: #0000;
-    }
-    20%{
-       
-    border-top-color: green;
-    }
-    40%{
-      
-        border-right-color: red;
-    }
-    60%{
-        border-bottom-color: yellow;
-    }
-    80%{
-        border-left-color: blue;
-    }
-    100%{
-        border-color: #0000;
-    }
-}
+
+ 
+    
+
+

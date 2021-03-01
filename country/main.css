@@ -91,7 +91,9 @@ footer p {
     border-radius: 0px;
 }
 
-
+a:hover{
+    transition: 0.5s;
+}
 
 .rus {
     background: rgb(214, 39, 24);
