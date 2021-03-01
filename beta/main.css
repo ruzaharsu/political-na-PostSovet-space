@@ -1,14 +1,14 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Bellota&family=Rubik+Mono+One&family=Ruslan+Display&family=Stalinist+One&display=swap');
-body, html{
+body, html {
     background: black;
 }
+
 header {
     color: white;
-animation: tyr 10s infinite;
-transition: 0.5s;
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(205,0,0,1) 50%, rgba(205,0,0,1) 100%);
+    animation: tyr 10s infinite;
+    transition: 0.5s;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(205, 0, 0, 1) 50%, rgba(205, 0, 0, 1) 100%);
     width: 100%;
     height: auto;
     display: flex;
@@ -43,8 +43,6 @@ header a {
     margin: 2%;
 }
 
-
-
 header a:hover {
     text-decoration: none;
     color: red;
@@ -55,9 +53,9 @@ header a:hover {
 main {
     font-family: 'Bellota', cursive;
     font-size: 16px;
-    background: rgb(219,13,32);
-    background: linear-gradient(336deg, rgba(219,13,32,1) 37%, rgba(39,135,245,1) 62%, rgba(39,135,245,1) 100%);
-    color:white;
+    background: linear-gradient( 101.67deg, #48cce0 7.24%, #505add 34.12%, #be40c0 62.93%, #fba82b 92.22%);
+    background-image: linear-gradient( 101.67deg, rgb(72, 204, 224) 7.24%, rgb(80, 90, 221) 34.12%, rgb(190, 64, 192) 62.93%, rgb(251, 168, 43) 92.22%);
+    color: white;
 }
 
 footer {
@@ -93,8 +91,6 @@ footer p {
     border-radius: 0px;
 }
 
-
-
 .rus {
     background: rgb(214, 39, 24);
     background: linear-gradient(315deg, rgba(214, 39, 24, 1) 0%, rgba(143, 44, 74, 1) 33%, rgba(0, 54, 167, 1) 33%, rgba(0, 54, 167, 1) 67%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 1) 100%);
@@ -108,16 +104,4 @@ footer p {
 
 .rus a:hover {
     color: black;
-}
-
-@keyframes tyr {
-    0% {
-        background: rgb(0,0,0);
-        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(205,0,0,1) 75%, rgba(205,0,0,1) 100%);
-    }
- 
-    100% {
-        background: rgb(255,214,0);
-        background: linear-gradient(0deg, rgba(255,214,0,1) 0%, rgba(255,214,0,1) 25%, rgba(0,91,188,1) 75%, rgba(0,91,188,1) 100%);
-    }
 }
