@@ -2,7 +2,7 @@
 html, body {
     background: rgb(214, 39, 24);
     background: linear-gradient(0deg, rgba(214, 39, 24, 1) 0%, rgba(143, 44, 74, 1) 33%, rgba(0, 54, 167, 1) 33%, rgba(0, 54, 167, 1) 67%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 1) 100%);
-
+    border-radius: 50px;
 }
 
 
@@ -17,15 +17,17 @@ header {
     align-items: center;
     flex-wrap: wrap;
     font-family: 'Bellota', cursive;
+    border-radius:20px 20px 0px 0px;
+    
 }
 
-header div {
+header div{
     color: white;
-    background-color: #1c771c;
+    background: #1c771c;
     width: 100%;
     height: auto;
+    height: auto;
     display: flex;
-    font-size: 17px;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
@@ -141,19 +143,32 @@ hr {
 }
 
 main img {
-    width: 250px;
-    border-radius: 20px;
-    animation: der 749s infinite;
+    width: 300px;
+    border-radius: 30px;
+    animation: erty 5s ;
+}
+@keyframes erty{
+    0%{
+        width: 10px;
+    }
+    100%{
+        width: 300px;
+    }
+}
+.putin {
+    color: white;
+    background: rgb(51, 51, 51);
+    border-radius: 40px;
+    animation: presid 5s infinite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: solid 2px;
+    border-color: black;
 }
 
-@keyframes der {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(7200deg);
-    }
-}
+
 
 .center {
     text-align: center;
@@ -175,7 +190,7 @@ main img {
 footer {
     width: 100%;
     height: auto;
-    background: #343c503f;
+    background: #343c5067;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -183,6 +198,7 @@ footer {
     font-family: 'Bellota', cursive;
     color: white;
     text-align: center;
+    border-radius:0px 0px 20px 20px;
 }
 
 footer a {
@@ -221,10 +237,19 @@ footer p {
 }
 
 .rf-flags {
-    width: 250px;
+    width: 150px;
     text-align: center;
     margin: auto;
-    border-radius: 20px;
+    border-radius: 10px;
+    animation: ey 10s;
+}
+@keyframes ey{
+    0%{
+        width: 10px;
+    }
+    100%{
+        width: 150px;
+    }
 }
 
 .rf {
@@ -245,4 +270,27 @@ footer p {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    animation: loadings 12s infinite;
+}
+@keyframes loadings{
+    0%{
+        border-color: #0000;
+    }
+    20%{
+       
+    border-top-color: green;
+    }
+    40%{
+      
+        border-right-color: red;
+    }
+    60%{
+        border-bottom-color: yellow;
+    }
+    80%{
+        border-left-color: blue;
+    }
+    100%{
+        border-color: #0000;
+    }
 }
