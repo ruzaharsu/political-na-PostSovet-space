@@ -26,7 +26,7 @@ header div {
 }
 header div a{
     text-decoration: none;
-    color:white;
+    color:rgb(0, 0, 0);
 }
 header div a:hover{
     text-decoration: none;
