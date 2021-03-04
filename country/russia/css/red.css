@@ -126,32 +126,5 @@ a:hover{
     border: solid 1px;
 }
 
-.rus {
-    background: rgb(214, 39, 24);
-    background: linear-gradient(315deg, rgba(214, 39, 24, 1) 0%, rgba(143, 44, 74, 1) 33%, rgba(0, 54, 167, 1) 33%, rgba(0, 54, 167, 1) 67%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 1) 100%);
-    color: black;
-    animation: tyr 4s infinite;
-}
 
-.rus a {
-    color: black;
-}
 
-.rus a:hover {
-    color: black;
-}
-
-@keyframes tyr {
-    0% {
-        background: rgb(219, 13, 32);
-        background: linear-gradient(0deg, rgba(219, 13, 32, 1) 0%, rgba(219, 13, 32, 1) 33%, rgba(1, 141, 233, 1) 33%, rgba(1, 141, 233, 1) 67%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 1) 100%);
-    }
-    25% {
-        background: rgb(214, 39, 24);
-        background: linear-gradient(0deg, rgba(214, 39, 24, 1) 0%, rgba(143, 44, 74, 1) 33%, rgba(0, 54, 167, 1) 33%, rgba(0, 54, 167, 1) 67%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 1) 100%);
-    }
-    100% {
-        background: rgb(219, 13, 32);
-        background: linear-gradient(0deg, rgba(219, 13, 32, 1) 0%, rgba(219, 13, 32, 1) 33%, rgba(1, 141, 233, 1) 33%, rgba(1, 141, 233, 1) 67%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 1) 100%);
-    }
-}
