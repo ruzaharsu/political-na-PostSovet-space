@@ -50,7 +50,8 @@ a:active{
 }
 .nav-country {
     color: white;
-    background-color: #d62718;
+    background: #d62718;
+    background: linear-gradient(0deg, rgba(214,39,24,1) 0%, rgba(143,44,74,1) 100%);
     width: 100%;
     height: auto;
     display: flex;
