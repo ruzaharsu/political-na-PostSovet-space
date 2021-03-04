@@ -38,7 +38,7 @@ header a {
 a:active{
     color: red;
     border: solid 1px;
-    border-radius: 100%;
+    border-radius: 10px;
     
 }
 #nav-country {
@@ -57,7 +57,7 @@ header a:hover {
     text-decoration: none;
     color: red;
     background-color:#134d13 ;
-    border-radius: 5px;
+
 }
 
 main {
@@ -66,6 +66,7 @@ main {
 }
 a{
     text-align: center;
+    margin: 1%;
 }
 footer {
     width: 100%;
@@ -81,7 +82,7 @@ footer {
 }
 .dre{
     width: 32px;
-    border-radius: 5px;
+    border-radius: 1px;
 }
 footer a {
     text-decoration: none;
@@ -92,7 +93,7 @@ footer a {
 footer a:hover {
     text-decoration: none;
     color: green;
-  
+   
 
 }
 
@@ -107,6 +108,8 @@ footer p {
 
 a:hover{
     transition: 0.5s;
+    border-radius: 10px;
+    border: solid 1px;
 }
 
 .rus {
