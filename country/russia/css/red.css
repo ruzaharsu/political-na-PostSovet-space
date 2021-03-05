@@ -30,8 +30,8 @@ header div a{
 }
 header div a:hover{
     text-decoration: none;
-    color:white;
-}
+    color: black;}
+
 header a {
     text-decoration: none;
     color: #ffffff;
@@ -127,4 +127,16 @@ a:hover{
 }
 
 
+main{
+    background: rgb(219,13,32);
+    background: linear-gradient(45deg, rgba(219,13,32,1) 0%, rgba(219,13,32,1) 18%, rgba(39,135,245,1) 43%, rgba(38,132,229,1) 54%, rgba(29,109,115,1) 67%, rgba(21,90,21,1) 100%);
+}
+audio::-webkit-media-controls-panel {
+    background: rgb(214,39,24);
+    background: linear-gradient(0deg, rgba(214,39,24,1) 0%, rgba(143,44,74,1) 33%, rgba(0,54,167,1) 33%, rgba(0,54,167,1) 67%, rgba(255,255,255,1) 67%, rgba(255,255,255,1) 100%);
+}
 
+.kiol audio::-webkit-media-controls-panel {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 33%, rgba(255,206,0,1) 33%, rgba(255,206,0,1) 67%, rgba(0,0,0,1) 67%, rgba(0,0,0,1) 100%);
+}
