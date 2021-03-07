@@ -4,6 +4,9 @@
     padding: 0%;
 }
 
+.wer{
+    overflow-x: auto; 
+}
 
 
 body, html {
@@ -253,4 +256,9 @@ img {
 .frd:hover{
     width: auto;
     height: 40px;
+}
+
+.russika-kyxna{
+    text-decoration: underline;
+color: black;
 }

@@ -64,6 +64,9 @@ a:active{
     text-decoration: none;
     color:#000000;
 }
+.wer{
+    overflow-x: auto; 
+}
 header a:hover {
     text-decoration: none;
     color: red;
