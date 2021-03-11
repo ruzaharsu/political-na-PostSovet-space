@@ -106,6 +106,7 @@ hr {
     width: 350px;
     border: solid 1px;
     border-radius: 15px;
+    overflow-x: auto; 
 }
 
 img {
