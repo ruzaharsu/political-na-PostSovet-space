@@ -6,17 +6,19 @@
 body, html {
     font-family: Arial, Helvetica, sans-serif;
     text-align: auto;
-    background-color: black;
+    background: url("/political-na-postsovet-space/country/russia/4f03ad960b11c5859d1039cf3fd1d1dc.jpg");
+    background-image: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     font-size: 15px;
     height: 100%;
+
 }
 
 
 
 main {
-    background: rgb(213, 43, 30);
-    background: linear-gradient(45deg, rgba(213, 43, 30, 1) 0%, rgba(0, 57, 166, 1) 51%, rgba(255, 255, 255, 1) 100%);
-    color: white;
+
     width: 100%;
     height: auto;
 }
@@ -158,9 +160,18 @@ div a:hover {
 .ogranicheno{
     background: red;
 }
+.sred1{
+  background: #f64a16;
+}
 .polu-ogranicheno{
     background: #ed812b;
 }
+.sred2{
+    background: #c2f616;
+}
 .razresheno{
     background: green;
+}
+footer{
+    background: #00000000;
 }

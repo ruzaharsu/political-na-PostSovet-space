@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellota&family=Rubik+Mono+One&family=Ruslan+Display&family=Stalinist+One&display=swap');
 html, body {
-    background: rgb(214, 39, 24);
-    background: linear-gradient(0deg, rgba(214, 39, 24, 1) 0%, rgba(143, 44, 74, 1) 33%, rgba(0, 54, 167, 1) 33%, rgba(0, 54, 167, 1) 67%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 1) 100%);
+    background: url("/political-na-postsovet-space/country/russia/4f03ad960b11c5859d1039cf3fd1d1dc.jpg");
+    background-image: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     border-radius: 50px;
 }
-
 
 header {
     color: rgb(0, 0, 0);
@@ -17,11 +18,9 @@ header {
     align-items: center;
     flex-wrap: wrap;
     font-family: 'Bellota', cursive;
-    border-radius:20px 20px 0px 0px;
-    
+    border-radius: 20px 20px 0px 0px;
 }
-
-header div{
+header div {
     color: white;
     background: #1c771c;
     width: 100%;
@@ -147,15 +146,16 @@ hr {
 main img {
     width: 300px;
     border-radius: 30px;
-    animation: erty 5s ;
+    animation: erty 5s;
 }
-@keyframes erty{
-    0%{
+
+@keyframes erty {
+    0% {
         width: 10px;
     }
-    100%{
+    100% {
         width: 300px;
-        transform: rotate(3600deg) ;
+        transform: rotate(3600deg);
     }
 }
 
@@ -171,8 +171,6 @@ main img {
     border: solid 2px;
     border-color: black;
 }
-
-
 
 .center {
     text-align: center;
@@ -202,7 +200,7 @@ footer {
     font-family: 'Bellota', cursive;
     color: white;
     text-align: center;
-    border-radius:0px 0px 20px 20px;
+    border-radius: 0px 0px 20px 20px;
 }
 
 footer a {
@@ -247,11 +245,12 @@ footer p {
     border-radius: 10px;
     animation: ey 5s;
 }
-@keyframes ey{
-    0%{
+
+@keyframes ey {
+    0% {
         width: 10px;
     }
-    100%{
+    100% {
         width: 150px;
         transform: rotate(-3600deg);
     }
@@ -271,29 +270,13 @@ footer p {
     border: solid 5px;
     border-radius: 50px;
     border-color: green;
- 
     border-color: #0000;
-  
-   
-       
     border-top-color: green;
- 
- 
-      
-        border-right-color: red;
-    
-   
-        border-bottom-color: yellow;
-    
-  
-        border-left-color: blue;
+    border-right-color: red;
+    border-bottom-color: yellow;
+    border-left-color: blue;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     animation: loadings 12s infinite;
 }
-
- 
-    
-
-
