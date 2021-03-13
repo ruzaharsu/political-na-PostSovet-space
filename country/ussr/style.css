@@ -11,12 +11,15 @@ body, html {
     background-color: black;
     font-size: 15px;
     height: 100%;
+    background: url("/political-na-postsovet-space/country/russia/Lubyanka_Building.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 
 
 main {
-    background: rgb(145, 27, 16);
+    background: rgba(145, 27, 16, 0.363);
    
     color: white;
     width: 100%;
@@ -138,7 +141,9 @@ img {
 
 .president {
     color: white;
-    background: rgb(94, 17, 11);
+    background: url("/political-na-postsovet-space/country/russia/Lubyanka_Building.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
     border-radius: 40px;
  
     display: flex;
@@ -206,6 +211,8 @@ img {
 }
 
 audio::-webkit-media-controls-panel {
-    background: rgb(172, 32, 19);
+    background: url("/political-na-postsovet-space/country/russia/Lubyanka_Building.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
    
 }
