@@ -24,7 +24,11 @@ main {
 p {
     text-indent: 30px;
 }
-
+tr{
+    background: url("/political-na-postsovet-space/country/russia/Lubyanka_Building.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
 #gimn {
     margin-left: 15%;
     margin-right: 15%;

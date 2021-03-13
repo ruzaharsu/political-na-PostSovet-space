@@ -83,7 +83,9 @@ a{
 footer {
     width: 100%;
     height: auto;
-    background: #343c50;
+    
+       
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
