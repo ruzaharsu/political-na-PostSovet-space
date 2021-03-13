@@ -1,40 +1,291 @@
-*{
-    padding: 0%;
+* {
     margin: 0%;
+    padding: 0%;
+}
+
+body, html {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: auto;
+    background-color: black;
+    font-size: 15px;
+    height: 100%;
 }
-header{
-    width:100%;
-    background-color: brown;
-}
-main{
+
+header {
+    color: white;
+    background-color: #155a15;
     width: 100%;
     height: auto;
-    background-color: #552343;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
-footer{
+
+header div {
+    color: white;
+    background-color: #1c771c;
     width: 100%;
-    background-color: darkblue;
+    height: auto;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
-body, html{
-    background: black;
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin: 2%;
+}
+
+div a {
+    text-decoration: none;
+    color: white;
+    margin: 2%;
+}
+
+div a:hover {
+    text-decoration: none;
+    color: red;
+    margin: 2%;
+}
+
+#id {
+    text-decoration: none;
+    color: red;
+    margin: 2%;
+}
+
+#nav-country {
+    color: white;
+    background-color: #155a15;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: red;
+}
+.sos{
+    text-decoration: none;
+    color: white;
+    margin: 0%;
+}
+.sos:hover{
+    text-decoration: none;
+    color: red;
+    margin: 0%;
+}
+
+main {
+    background: rgb(9,94,121);
+    background: linear-gradient(90deg, rgba(9,94,121,1) 0%, rgba(0,22,36,1) 100%);
+        color: white;
+    width: 100%;
+    height: auto;
+}
+
+p {
+    text-indent: 30px;
+}
+
+#gimn {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h1 {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h2 {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h3 {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: 600;
+    text-align: center;
+}
+
+hr {
     color: white;
 }
 
+footer {
+    width: 100%;
+    height: auto;
+    background: #dad9d9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
-button{
-   font-family: 'Times New Roman', Times, serif;
+footer a {
+    text-decoration: none;
     font-size: 15px;
-   
-  
-    border-color: #45859600;
-    border: solid 0px;
+    color: #3d3d3d;
 }
 
-button:hover{
-    background: red;
+footer a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.photo {
+    float: right;
+    /* Обтекание картинки по левому краю */
+    padding-left: 10px;
+    /* Отступ слева */
+    padding-bottom: 10px;
+    /* Отступ снизу */
+    width: 250px;
+}
+
+.photol {
+    float: left;
+    /* Обтекание картинки по левому краю */
+    padding-left: 10px;
+    /* Отступ слева */
+    padding-bottom: 10px;
+    /* Отступ снизу */
+    width: 250px;
+}
+
+#ussr {
+    padding-left: 0px;
+    /* Отступ слева */
+    padding-bottom: 0px;
+    /* Отступ снизу */
+}
+
+.ussr {
+    background-color: black;
     color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.center a {
+    margin: 0px;
+}
+
+.center a:hover {
+    margin: 0px;
+}
+
+.gimn {
+    text-align: center;
+}
+
+.flags {
+    color: white;
+}
+
+.president {
+    color: white;
+    background: rgb(51, 51, 51);
     border-radius: 40px;
-    border-color: #45859600;
-    border: solid 0px;
+    animation: presid 5s infinite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@keyframes presid {
+    0% {
+        background: white;
+        color: black;
+    }
+    25% {
+        background: #0039A6;
+        color: white;
+    }
+    50% {
+        background: #D52B1E;
+        color: white;
+    }
+    75% {
+        background: #0039A6;
+        color: white;
+    }
+    100% {
+        background: white;
+        color: black;
+    }
+}
+
+.elsin {
+    text-align: center;
+}
+
+.putin {
+    text-align: center;
+    margin: 1%;
+}
+
+.medvedev {
+    text-align: center;
+    margin: 1%;
+}
+
+.ty {
+    text-indent: 0px;
+}
+
+.pres {
+    border-radius: 20px;
+    border: solid 5px;
+    border-color: red;
+    width: 250px;
+    animation: prewe 5s infinite;
+}
+
+@keyframes prewe {
+    0% {
+        border-color: red;
+    }
+    25% {
+        border-color: red;
+    }
+    50% {
+        border-color: #0039A6;
+    }
+    75% {
+        border-color: red;
+    }
+    100% {
+        border-color: red;
+    }
+}
+ul a{
+    margin: 0%;
+}
+ul a:hover{
+    margin: 0%;
+}
+img{
+    width: 100%;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+td{
+    background: url("/political-na-postsovet-space/country/russia/Lubyanka_Building.jpg");
+    background-size: 100%;
 }
