@@ -11,11 +11,9 @@ body, html {
     height: 100%;
 }
 
-
-
 main {
-    background: rgb(120,121,9);
-    background: linear-gradient(90deg, rgba(120,121,9,1) 0%, rgba(122,0,0,1) 100%);
+    background: rgb(120, 121, 9);
+    background: linear-gradient(90deg, rgba(120, 121, 9, 1) 0%, rgba(122, 0, 0, 1) 100%);
     color: white;
     width: 100%;
     height: auto;
@@ -24,11 +22,7 @@ main {
 p {
     text-indent: 30px;
 }
-tr{
-    background: url("/political-na-postsovet-space/country/russia/Lubyanka_Building.jpg");
-    background-size: 100%;
-    background-attachment: fixed;
-}
+
 #gimn {
     margin-left: 15%;
     margin-right: 15%;
@@ -50,8 +44,6 @@ h3 {
     font-weight: 600;
 }
 
-
-
 #ussr {
     padding-left: 0px;
     /* Отступ слева */
@@ -66,18 +58,18 @@ h3 {
 }
 
 .ussr {
- 
     color: white;
-    
 }
 
 .kal {
     width: 100%;
 }
-img{
+
+img {
     width: 100%;
     border-radius: 20px;
 }
+
 div a {
     text-decoration: none;
     color: white;
@@ -89,18 +81,18 @@ div a:hover {
     color: red;
     margin: 2%;
 }
-.sos{
+
+.sos {
     text-decoration: none;
     color: white;
     margin: 0%;
 }
-.sos:hover{
+
+.sos:hover {
     text-decoration: none;
     color: red;
     margin: 0%;
 }
-
-
 
 .president {
     color: white;
@@ -116,11 +108,13 @@ div a:hover {
     align-items: center;
     flex-wrap: wrap;
 }
-.preside{
+
+.preside {
     border-radius: 20px;
     border: solid 1px;
     padding: 10px;
 }
+
 .glava {
     margin: 1%;
 }
@@ -137,6 +131,10 @@ div a:hover {
     border-color: red;
 }
 
+main a:hover {
+    color: white;
+}
+
 .press {
     width: 300px;
     text-align: center;
@@ -150,11 +148,20 @@ div a:hover {
     width: 250px;
     text-align: center;
     margin: auto;
- border-radius: 20px;
+    border-radius: 20px;
 }
+
 .rf {
     width: 250px;
     text-align: center;
     margin: auto;
- 
+}
+
+.vertikalno {
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    text-align: center;
 }
