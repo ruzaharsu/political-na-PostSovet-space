@@ -132,7 +132,10 @@ img {
 .gimn {
     text-align: center;
 }
-
+.text-gimn p{
+    text-align: left;
+    text-indent: 0px;
+}
 .flags {
     color: white;
 }
