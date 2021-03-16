@@ -35,7 +35,7 @@ header a {
     color: red;
     margin: 2%;
 }
-a:active{
+header a:active, footer a:hover{
     color: red;
     border: solid 1px;
     border-radius: 10px;
@@ -107,7 +107,7 @@ footer p {
     border-radius: 0px;
 }
 
-a:hover{
+header a:hover, footer a:hover{
     transition: 0.5s;
     border-radius: 10px;
     border: solid 1px;
@@ -155,5 +155,14 @@ table .flagi{
     width: 20px;
     border-radius: 0px;
     border: 0.1px solid black;
+}
+table .gerbs{
+    width: 100px;
+    border-radius: 0px;
+}
+table .gerbs:hover{
+    width: 100px;
+    border-radius: 0px;
+    border: none;
 }
 table td {height: 30px; vertical-align: center;} /* выравнивание по верхней границе ячейки */
