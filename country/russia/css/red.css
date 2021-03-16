@@ -10,7 +10,7 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    font-family: 'Bellota', cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header div {

@@ -9,7 +9,7 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    font-family: 'Bellota', cursive;
+    font-family: Arial, Helvetica, sans-serif ;
 }
 
 header div {
@@ -145,3 +145,14 @@ a:hover{
 .wer{
     overflow-x: auto; 
 }
+table p{
+    text-indent: 0px;
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table .flagi{
+    width: 20px;
+    border-radius: 0px;
+}
+table td {height: 30px; vertical-align: center;} /* выравнивание по верхней границе ячейки */
