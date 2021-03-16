@@ -166,3 +166,13 @@ table .gerbs:hover{
     border: none;
 }
 table td {height: 30px; vertical-align: center;} /* выравнивание по верхней границе ячейки */
+table a{
+    margin: 0%;
+    font-style: italic;
+    color: #ffffff;
+}
+table a:hover{
+    margin: 0%;
+    color: red
+}
+
