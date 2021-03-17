@@ -152,17 +152,17 @@ table{
     font-family: Arial, Helvetica, sans-serif;
 }
 table .flagi{
-    width: 20px;
+    width: 25px;
     border-radius: 0px;
     border: 0.1px solid black;
 }
 table .gerbs{
     width: 100px;
-    border-radius: 0px;
+    border-radius: 2.5px;
 }
 table .gerbs:hover{
     width: 100px;
-    border-radius: 0px;
+    border-radius: 2.5px;
     border: none;
 }
 table td {height: 30px; vertical-align: center;} /* выравнивание по верхней границе ячейки */

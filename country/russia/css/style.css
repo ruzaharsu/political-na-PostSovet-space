@@ -81,7 +81,9 @@ hr {
     border: solid 1px;
     border-radius: 15px;
 }
-
+.photo img{
+    border-radius: 5px;
+}
 .photol {
     float: left;
     /* Обтекание картинки по левому краю */
@@ -94,7 +96,9 @@ hr {
     border: solid 1px;
     border-radius: 15px;
 }
-
+.photol img{
+    border-radius: 5px;
+}
 .plotnost {
     float: left;
     /* Обтекание картинки по левому краю */

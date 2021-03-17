@@ -30,7 +30,7 @@ div a {
 
 main {
     background: rgb(0,175,102);
-    background: linear-gradient(45deg, rgba(0,175,102,1) 45%, rgba(210,38,48,1) 55%);
+    background: linear-gradient(45deg, rgba(0,175,102,1) 45%, rgb(156, 29, 36) 55%);
     color: white;
     width: 100%;
     height: auto;
@@ -67,16 +67,37 @@ hr {
 
 
 
+
 .photo {
     float: right;
     /* Обтекание картинки по левому краю */
-    padding-left: 10px;
-    /* Отступ слева */
-    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
     /* Отступ снизу */
     width: 250px;
+    border: solid 1px;
+    border-radius: 15px;
 }
-
+.photo img{
+    border-radius: 5px;
+}
+.photol {
+    float: left;
+    /* Обтекание картинки по левому краю */
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* Отступ снизу */
+    width: 250px;
+    border: solid 1px;
+    border-radius: 15px;
+}
+.photol img{
+    border-radius: 5px;
+}
 #ussr {
     padding-left: 0px;
     /* Отступ слева */
