@@ -113,10 +113,7 @@ footer p {
     text-indent: 0px;
 }
 
-.fr {
-    width: 40px;
-    border-radius: 5px;
-}
+
 
 a:hover{
     transition: 0.5s;

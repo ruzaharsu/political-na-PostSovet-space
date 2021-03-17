@@ -83,10 +83,7 @@ a{
     color: white;
 }
 
-.fr {
-    width: 40px;
-    border-radius: 0px;
-}
+
 
 a:hover{
     transition: 0.5s;

@@ -313,3 +313,7 @@ footer a:hover {
 footer p {
     text-indent: 0px;
 }
+.fr {
+    width: 40px;
+    border-radius: 5px;
+}
