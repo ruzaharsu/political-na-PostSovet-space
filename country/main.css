@@ -35,7 +35,7 @@ header a {
     color: red;
     margin: 2%;
 }
-header a:active, footer a:hover{
+header a:active, footer a:active{
     color: red;
     border: solid 1px;
     border-radius: 10px;
@@ -56,7 +56,7 @@ header a:active, footer a:hover{
 header a:hover {
     text-decoration: none;
     color: red;
-    background-color:#134d13 ;
+    background-color:#134d1363 ;
 
 }
 
@@ -93,8 +93,6 @@ footer a {
 footer a:hover {
     text-decoration: none;
     color: green;
-   
-    background: #262b3a;
 
 }
 
@@ -107,7 +105,7 @@ footer p {
     border-radius: 0px;
 }
 
-header a:hover, footer a:hover{
+header a:hover{
     transition: 0.5s;
     border-radius: 10px;
     border: solid 1px;
