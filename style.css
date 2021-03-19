@@ -21,29 +21,10 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    animation: bipolar 15s infinite;
+  
 }
 
-@keyframes bipolar {
-    0% {
-        background: #155a15;
-    }
-    25% {
-        background: rgb(0, 175, 102);
-        background: linear-gradient(0deg, rgba(0, 175, 102, 1) 50%, rgb(156, 29, 36) 50%);
-    }
-    50% {
-        background: rgb(214, 39, 24);
-        background: linear-gradient(0deg, rgba(214, 39, 24, 1) 0%, rgba(143, 44, 74, 1) 33%, rgba(0, 54, 167, 1) 33%, rgba(0, 54, 167, 1) 67%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 1) 100%);
-    }
-    75% {
-        background: rgb(255, 214, 0);
-        background: linear-gradient(0deg, rgba(255, 214, 0, 1) 0%, rgba(255, 214, 0, 1) 50%, rgba(0, 91, 188, 1) 50%, rgba(0, 91, 188, 1) 100%);
-    }
-    100% {
-        background: #155a15;
-    }
-}
+
 
 header div {
     color: white;
@@ -108,17 +89,20 @@ main p {
 h1 {
     margin-left: 20%;
     margin-right: 20%;
+    text-align: center;
 }
 
 h2 {
     margin-left: 20%;
     margin-right: 20%;
+    text-align: center;
 }
 
 h3 {
     margin-left: 20%;
     margin-right: 20%;
     font-weight: 600;
+    text-align: center;
 }
 
 hr {
@@ -148,7 +132,7 @@ footer a:hover {
 
 img {
 
-    width: 100px;
+    width: 33%;
 }
 
 #ussr {
