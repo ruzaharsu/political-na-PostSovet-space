@@ -1,0 +1,213 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: auto;
+    background-color: black;
+    font-size: 15px;
+    height: 100%;
+    background: url("/political-na-postsovet-space/country/russia/Lubyanka_Building.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+
+
+main {
+    background: rgb(145, 27, 16);
+   
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+p {
+    text-indent: 30px;
+}
+
+#gimn {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h1 {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h2 {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h3 {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: 600;
+    text-align: center;
+}
+
+hr {
+    color: white;
+}
+
+
+
+.photo {
+    float: right;
+    /* Обтекание картинки по левому краю */
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* Отступ снизу */
+    width: 250px;
+    border: solid 1px;
+    border-radius: 15px;
+}
+
+.photol {
+    float: left;
+    /* Обтекание картинки по левому краю */
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* Отступ снизу */
+    width: 250px;
+    border: solid 1px;
+    border-radius: 15px;
+}
+
+.plotnost {
+    float: left;
+    /* Обтекание картинки по левому краю */
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* Отступ снизу */
+    width: 350px;
+    border: solid 1px;
+    border-radius: 15px;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#ussr {
+    padding-left: 0px;
+    /* Отступ слева */
+    padding-bottom: 0px;
+    /* Отступ снизу */
+}
+
+.ussr {
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.gimn {
+    text-align: center;
+}
+
+.flags {
+    color: white;
+}
+.flags a {
+    text-decoration: none;
+    color: white;
+}
+
+.president {
+    color: white;
+    border-radius: 40px;
+    background: rgb(83, 15, 8);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: solid 2px;
+    border-color: black;
+}
+
+.preside {
+    border-radius: 20px;
+    border: solid 1px;
+    padding: 10px;
+}
+
+
+
+.elsin {
+    text-align: center;
+}
+
+.putin {
+    text-align: center;
+    margin: 1%;
+}
+
+.medvedev {
+    text-align: center;
+    margin: 1%;
+}
+
+.ty {
+    text-indent: 0px;
+}
+
+.pres {
+    border-radius: 20px;
+
+    width: 250px;
+
+}
+
+
+
+.kek {
+    background: url("flag-of-Russia.png");
+    background-size: 100%;
+}
+
+.kek-2 {
+    color: white;
+}
+
+.kek-3 {
+    color: white;
+}
+
+.kek-3:hover {
+    color: blue;
+}
+
+.VK {
+    border-radius: 20px;
+}
+
+audio::-webkit-media-controls-panel {
+    background: rgb(83, 15, 8);
+   
+}
