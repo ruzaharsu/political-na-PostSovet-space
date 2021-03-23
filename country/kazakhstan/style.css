@@ -211,3 +211,7 @@ audio::-webkit-media-controls-panel {
     background: #00b1cb;
    
 }
+.redr{
+    width: 75px;
+    border-radius: 1px;
+}

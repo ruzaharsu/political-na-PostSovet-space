@@ -55,7 +55,10 @@ h2 {
     margin-left: 20%;
     margin-right: 20%;
 }
-
+h2 a{
+    text-decoration: underline;
+    color: blue;
+}
 h3 {
     margin-left: 20%;
     margin-right: 20%;
@@ -277,10 +280,6 @@ img {
     height: 40px;
 }
 
-.russika-kyxna{
-    text-decoration: underline;
-color: black;
-}
 footer {
     width: 100%;
     height: auto;
@@ -316,4 +315,8 @@ footer p {
 .fr {
     width: 40px;
     border-radius: 5px;
+}
+.redr{
+    width: 75px;
+    border-radius: 1px;
 }
