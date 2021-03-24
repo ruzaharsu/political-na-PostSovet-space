@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellota&family=Rubik+Mono+One&family=Ruslan+Display&family=Stalinist+One&display=swap');
-
 header {
     color: rgb(0, 0, 0);
     background-color: #000000;
@@ -105,3 +104,4 @@ audio::-webkit-media-controls-panel {
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 33%, rgba(255,206,0,1) 33%, rgba(255,206,0,1) 67%, rgba(0,0,0,1) 67%, rgba(0,0,0,1) 100%);
 }
+

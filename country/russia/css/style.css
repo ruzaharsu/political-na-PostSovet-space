@@ -4,20 +4,16 @@
     padding: 0%;
 }
 
-.wer{
-    overflow-x: auto; 
+.wer {
+    overflow-x: auto;
 }
-
 
 body, html {
     font-family: Arial, Helvetica, sans-serif;
     text-align: auto;
- 
     font-size: 15px;
     height: 100%;
 }
-
-
 
 main {
     background: rgb(213, 43, 30);
@@ -55,10 +51,12 @@ h2 {
     margin-left: 20%;
     margin-right: 20%;
 }
-h2 a{
+
+h2 a {
     text-decoration: underline;
     color: blue;
 }
+
 h3 {
     margin-left: 20%;
     margin-right: 20%;
@@ -69,8 +67,6 @@ h3 {
 hr {
     color: white;
 }
-
-
 
 .photo {
     float: right;
@@ -84,9 +80,11 @@ hr {
     border: solid 1px;
     border-radius: 15px;
 }
-.photo img{
+
+.photo img {
     border-radius: 5px;
 }
+
 .photol {
     float: left;
     /* Обтекание картинки по левому краю */
@@ -99,9 +97,11 @@ hr {
     border: solid 1px;
     border-radius: 15px;
 }
-.photol img{
+
+.photol img {
     border-radius: 5px;
 }
+
 .plotnost {
     float: left;
     /* Обтекание картинки по левому краю */
@@ -113,7 +113,7 @@ hr {
     width: 350px;
     border: solid 1px;
     border-radius: 15px;
-    overflow-x: auto; 
+    overflow-x: auto;
 }
 
 img {
@@ -139,13 +139,16 @@ img {
 .gimn {
     text-align: center;
 }
-.text-gimn p{
+
+.text-gimn p {
     text-align: left;
     text-indent: 0px;
 }
+
 .flags {
     color: white;
 }
+
 .flags a {
     text-decoration: none;
     color: white;
@@ -153,10 +156,21 @@ img {
 
 .president {
     color: #000;
-    background: rgb(214,39,24);
-    background: linear-gradient(0deg, rgba(214,39,24,1) 0%, rgba(143,44,74,1) 33%, rgba(0,54,167,1) 33%, rgba(0,54,167,1) 67%, rgba(255,255,255,1) 67%, rgba(255,255,255,1) 100%);
+    background: rgb(214, 39, 24);
+    background: linear-gradient(0deg, rgba(214, 39, 24, 1) 0%, rgba(143, 44, 74, 1) 33%, rgba(0, 54, 167, 1) 33%, rgba(0, 54, 167, 1) 67%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 1) 100%);
     border-radius: 40px;
-  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: solid 2px;
+    border-color: black;
+}
+
+.imperia {
+    color: #fff;
+    background: linear-gradient(to top right, rgb(51, 0, 0), rgb(55, 9, 9), rgb(58, 9, 9), rgb(62, 8, 8), rgb(65, 42, 8), rgb(81, 8, 8), rgb(8, 72, 98), rgb(8, 76, 114), rgb(8, 79, 130), rgb(7, 83, 146), rgb(7, 86, 163), rgb(7, 90, 179));
+    border-radius: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -169,7 +183,6 @@ img {
     border-radius: 20px;
     border: solid 1px;
     padding: 10px;
-  
 }
 
 @keyframes presid {
@@ -214,20 +227,19 @@ img {
 }
 
 .pres {
-    border-radius: 20px;
-    border: solid 5px;
-    border-color: red;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: black;
     width: 250px;
- 
+    padding: 1px;
 }
+
 .pres:hover {
-    border-radius: 20px;
-    border: solid 5px;
-    border-color: red;
+    border-radius: 25px;
+    border: solid 1px;
+    border-color: black;
     width: 250px;
-    transform: translateY(-25px);
-    transition: 1s;
- 
+   transition: 0.5s;
 }
 
 @keyframes prewe {
@@ -269,13 +281,12 @@ img {
     border-radius: 20px;
 }
 
-
-
-.frd{
+.frd {
     width: auto;
     height: 30px;
 }
-.frd:hover{
+
+.frd:hover {
     width: auto;
     height: 40px;
 }
@@ -292,10 +303,12 @@ footer {
     color: white;
     text-align: center;
 }
-.dre{
+
+.dre {
     width: 32px;
     border-radius: 1px;
 }
+
 footer a {
     text-decoration: none;
     font-size: 15px;
@@ -305,18 +318,18 @@ footer a {
 footer a:hover {
     text-decoration: none;
     color: green;
-   
-
 }
 
 footer p {
     text-indent: 0px;
 }
+
 .fr {
     width: 40px;
     border-radius: 5px;
 }
-.redr{
+
+.redr {
     width: 75px;
     border-radius: 1px;
 }
