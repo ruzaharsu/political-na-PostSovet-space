@@ -45,11 +45,13 @@ main p {
 h1 {
     margin-left: 20%;
     margin-right: 20%;
+    text-align: center;
 }
 
 h2 {
     margin-left: 20%;
     margin-right: 20%;
+    text-align: center;
 }
 
 h2 a {
@@ -215,10 +217,15 @@ img {
 .putin {
     text-align: center;
     margin: 1%;
+  
 }
 
 .medvedev {
     text-align: center;
+    margin: 1%;
+}
+.empire{
+    border: 1px solid black;
     margin: 1%;
 }
 
