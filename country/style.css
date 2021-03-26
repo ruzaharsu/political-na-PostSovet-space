@@ -170,9 +170,10 @@ main a:hover {
 .photol {
     float: left;
     /* Обтекание картинки по левому краю */
-    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding: 10px;
    
     /* Отступ снизу */
     width: 250px;
