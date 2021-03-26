@@ -77,7 +77,7 @@
                 VK.Widgets.Comments("vk_comments", { limit: 20, attach: "*" });
             </script>
             <br>
-            
+
         </div>
 
 
@@ -93,6 +93,18 @@
                     <script src="https://yastatic.net/share2/share.js"></script>
                     <div class="ya-share2" data-curtain data-services="messenger,vkontakte,odnoklassniki,telegram">
                     </div>
+                    <!-- Put this script tag to the <head> of your page -->
+                    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+
+                    <script type="text/javascript">
+                        VK.init({ apiId: 7752244, onlyWidgets: true });
+                    </script>
+
+                    <!-- Put this div tag to the place, where the Like block will be -->
+                    <div id="vk_recommended"></div>
+                    <script type="text/javascript">
+                        VK.Widgets.Recommended("vk_recommended", { limit: 5, period: 'month', verb: 1 });
+                    </script>
                 </div>
                 <div class="col-sm">
                     <hr>
@@ -113,9 +125,9 @@
                     <p><a href="/political-na-postsovet-space/country/belarus/"><img
                                 src="/political-na-postsovet-space/country/belarus/gos-simvolika/gerb-of-Belarus.png"
                                 alt="" class="fr"> Беларусь</a></p>
-                                <p><a href="/political-na-postsovet-space/country/kazakhstan/"><img
-                                    src="/political-na-postsovet-space/country/kazakhstan/gos-simvolika/gerb-of-Kazakhstan.png"
-                                    alt="" class="fr"> Казахстан</a></p>
+                    <p><a href="/political-na-postsovet-space/country/kazakhstan/"><img
+                                src="/political-na-postsovet-space/country/kazakhstan/gos-simvolika/gerb-of-Kazakhstan.png"
+                                alt="" class="fr"> Казахстан</a></p>
                     <p><a href="/political-na-postsovet-space/country/russia/"><img
                                 src="/political-na-postsovet-space/country/russia/gos-simvolika/gerb-of-Russia.png"
                                 alt="" class="fr"> Россия</a></p>

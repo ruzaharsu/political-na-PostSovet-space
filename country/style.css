@@ -167,3 +167,25 @@ main a:hover {
     transform: rotate(-90deg);
     text-align: center;
 }
+.photol {
+    float: left;
+    /* Обтекание картинки по левому краю */
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+    /* Отступ снизу */
+    width: 250px;
+   
+}
+.photo {
+    float: right;
+    /* Обтекание картинки по левому краю */
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+    /* Отступ снизу */
+    width: 250px;
+   
+}
