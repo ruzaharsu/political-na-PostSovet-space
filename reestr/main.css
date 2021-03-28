@@ -41,7 +41,7 @@ a:active{
     border-radius: 10px;
     
 }
-#nav-country {
+.nav-country {
     color: white;
     background-color: #00000000;
     width: 100%;

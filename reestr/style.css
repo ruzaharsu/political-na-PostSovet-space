@@ -6,7 +6,7 @@
 body, html {
     font-family: Arial, Helvetica, sans-serif;
     text-align: auto;
-    background: url("/political-na-postsovet-space/country/russia/4f03ad960b11c5859d1039cf3fd1d1dc.jpg");
+    background: url("/political-na-postsovet-space/country/russia/67wIjCtV13VF2Q_h4s5mPeTYw9k.jpg");
     background-image: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body, html {
 
 
 main {
-
+color: #fff;
     width: 100%;
     height: auto;
 }
@@ -64,11 +64,12 @@ h3 {
 }
 .ussr{
     color: #fff;
+    background: #343c5067;
 }
 .ussr2 {
-    background: rgb(255,214,0);
-    background: linear-gradient(0deg, rgba(255,214,0,1) 0%, rgba(255,214,0,1) 50%, rgba(0,91,188,1) 50%, rgba(0,91,188,1) 100%);
-    color: #000000;
+    background:  rgba(0,91,188,1)  ;
+ 
+    color: #ffffff;
     
 }
 
@@ -173,12 +174,21 @@ div a:hover {
     background: #c2f616;
 }
 .razresheno{
-    background: green;
+    background: #008000d2;
 }
 footer{
     background: #00000000;
 }
 table{
     font-family: Arial, Helvetica, sans-serif;
+    
     text-align: center;
+}
+table a{
+    text-decoration: underline;
+    
+}
+table a:hover{
+    text-decoration: underline;
+    border: none;
 }
