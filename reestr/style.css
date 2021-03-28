@@ -62,10 +62,13 @@ h3 {
     font-size: 15px;
     color: #fff;
 }
-
-.ussr {
- 
-    color: white;
+.ussr{
+    color: #fff;
+}
+.ussr2 {
+    background: rgb(255,214,0);
+    background: linear-gradient(0deg, rgba(255,214,0,1) 0%, rgba(255,214,0,1) 50%, rgba(0,91,188,1) 50%, rgba(0,91,188,1) 100%);
+    color: #000000;
     
 }
 
@@ -177,4 +180,5 @@ footer{
 }
 table{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
