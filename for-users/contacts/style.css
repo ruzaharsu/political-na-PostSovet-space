@@ -16,11 +16,11 @@ body, html {
 
 header {
     color: white;
-    background-color: #155a15;
+    background: #155a1567;
     width: 100%;
     height: auto;
     display: flex;
-    font-size: 20px;
+    font-size: 25px;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
@@ -28,7 +28,6 @@ header {
 
 header div {
     color: white;
-    background-color: #1c771c;
     width: 100%;
     height: auto;
     display: flex;
@@ -135,7 +134,7 @@ hr {
 footer {
     width: 100%;
     height: auto;
-    background: #343c5073;
+    background: #343c5067;
     display: flex;
     justify-content: space-around;
     align-items: center;
