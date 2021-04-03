@@ -132,6 +132,8 @@ img {
 
 .ussr {
     color: white;
+    background: rgb(0,35,203);
+    background: linear-gradient(180deg, rgba(0,35,203,1) 0%, rgba(91,0,147,1) 51%, rgba(203,0,0,1) 100%);
 }
 
 .center {
