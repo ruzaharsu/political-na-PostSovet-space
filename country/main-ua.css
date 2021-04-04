@@ -15,7 +15,7 @@ header {
 
 header div {
     color: white;
-    background-color:#005bbc ;
+    background:#005bbc ;
     width: 100%;
     height: auto;
     display: flex;
@@ -26,11 +26,11 @@ header div {
 }
 header div a{
     text-decoration: none;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
 }
 header div a:hover{
     text-decoration: none;
-    color:#000;
+    color:rgb(255, 255, 255);
 }
 header a {
     text-decoration: none;
@@ -63,6 +63,9 @@ a:active{
 .nav-country a:hover {
     text-decoration: none;
     color:#000000;
+}
+.nav-country a{
+    color: #000000;
 }
 .wer{
     overflow-x: auto; 
@@ -125,5 +128,36 @@ a:hover{
     transition: 0.5s;
     border-radius: 10px;
     border: solid 1px;
+}
+table p{
+    text-indent: 0px;
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+table .flagi{
+    width: 25px;
+    border-radius: 0px;
+    border: 0.1px solid black;
+}
+table .gerbs{
+    width: 100px;
+    border-radius: 2.5px;
+}
+table .gerbs:hover{
+    width: 100px;
+    border-radius: 2.5px;
+    border: none;
+}
+table td {height: 30px; vertical-align: center;} /* выравнивание по верхней границе ячейки */
+table a{
+    margin: 0%;
+    font-style: italic;
+    color: #ffffff;
+}
+table a:hover{
+    margin: 0%;
+    color: red
 }
 

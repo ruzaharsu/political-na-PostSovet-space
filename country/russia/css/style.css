@@ -342,3 +342,35 @@ footer p {
     width: 75px;
     border-radius: 1px;
 }
+/*таблица*/
+table p{
+    text-indent: 0px;
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+table .flagi{
+    width: 25px;
+    border-radius: 0px;
+    border: 0.1px solid black;
+}
+table .gerbs{
+    width: 100px;
+    border-radius: 2.5px;
+}
+table .gerbs:hover{
+    width: 100px;
+    border-radius: 2.5px;
+    border: none;
+}
+table td {height: 30px; vertical-align: center;} /* выравнивание по верхней границе ячейки */
+table a{
+    margin: 0%;
+    font-style: italic;
+    color: #ffffff;
+}
+table a:hover{
+    margin: 0%;
+    color: red
+}
