@@ -36,7 +36,10 @@ main a:hover {
 main p {
     text-indent: 30px;
 }
-
+.constitution{
+    text-indent: 0px;
+    margin: 30px 30px 20px 30px;
+}
 #gimn {
     margin-left: 15%;
     margin-right: 15%;

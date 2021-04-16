@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota&family=Rubik+Mono+One&family=Ruslan+Display&family=Stalinist+One&display=swap');
+
+header {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 20pt;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header div {
+    color: white;
+    background-color: #0036a7;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header div a{
+    text-decoration: none;
+    color:white;
+}
+header div a:hover{
+    text-decoration: none;
+    color:white;
+}
+header a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 2%;
+}
+#id {
+    text-decoration: none;
+    color: red;
+    margin: 2%;
+}
+a:active{
+    color: red;
+    border: solid 1px;
+    border-radius: 10px;
+    
+}
+.nav-country {
+    color: white;
+    background: #d62718;
+    background: linear-gradient(0deg, rgba(214,39,24,1) 0%, rgba(143,44,74,1) 100%);
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-country a:hover {
+    text-decoration: none;
+    color:white;
+}
+header a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+main {
+    font-family: 'Bellota', cursive;
+    font-size: 16px;
+}
+a{
+    text-align: center;
+    margin: 1%;
+}
+.derf{
+    color: white;
+}
+
+
+
+a:hover{
+    transition: 0.5s;
+    border-radius: 10px;
+    border: solid 1px;
+}
+
+
+main{
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+audio::-webkit-media-controls-panel {
+    background: rgb(214,39,24);
+    background: linear-gradient(0deg, rgba(214,39,24,1) 0%, rgba(143,44,74,1) 33%, rgba(0,54,167,1) 33%, rgba(0,54,167,1) 67%, rgba(255,255,255,1) 67%, rgba(255,255,255,1) 100%);
+}
+
+.kiol audio::-webkit-media-controls-panel {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 33%, rgba(255,206,0,1) 33%, rgba(255,206,0,1) 67%, rgba(0,0,0,1) 67%, rgba(0,0,0,1) 100%);
+}
+
