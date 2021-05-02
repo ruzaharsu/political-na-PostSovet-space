@@ -21,6 +21,9 @@ main {
     color: black;
     width: 100%;
     height: auto;
+    font-family: 'Yandex Sans Text';
+    font-weight: 500;
+    font-style: normal;
 }
 
 main a {
@@ -36,10 +39,12 @@ main a:hover {
 main p {
     text-indent: 30px;
 }
-.constitution{
+
+.constitution {
     text-indent: 0px;
     margin: 30px 30px 20px 30px;
 }
+
 #gimn {
     margin-left: 15%;
     margin-right: 15%;
@@ -135,8 +140,8 @@ img {
 
 .ussr {
     color: white;
-    background: rgb(0,35,203);
-    background: linear-gradient(180deg, rgba(0,35,203,1) 0%, rgba(91,0,147,1) 51%, rgba(203,0,0,1) 100%);
+    background: rgb(0, 35, 203);
+    background: linear-gradient(180deg, rgba(0, 35, 203, 1) 0%, rgba(91, 0, 147, 1) 51%, rgba(203, 0, 0, 1) 100%);
 }
 
 .center {
@@ -172,6 +177,8 @@ img {
     flex-wrap: wrap;
     border: solid 2px;
     border-color: black;
+    font-family: 'Bellota', cursive;
+    font-size: 16px;
 }
 
 .imperia {
@@ -184,6 +191,8 @@ img {
     flex-wrap: wrap;
     border: solid 2px;
     border-color: black;
+    font-family: 'Bellota', cursive;
+    font-size: 16px;
 }
 
 .preside {
@@ -222,14 +231,14 @@ img {
 .putin {
     text-align: center;
     margin: 1%;
-  
 }
 
 .medvedev {
     text-align: center;
     margin: 1%;
 }
-.empire{
+
+.empire {
     border: 1px solid black;
     margin: 1%;
 }
@@ -251,7 +260,7 @@ img {
     border: solid 1px;
     border-color: black;
     width: 250px;
-   transition: 0.5s;
+    transition: 0.5s;
 }
 
 @keyframes prewe {
@@ -345,35 +354,48 @@ footer p {
     width: 75px;
     border-radius: 1px;
 }
+
 /*таблица*/
-table p{
+
+table p {
     text-indent: 0px;
 }
-table{
+
+table {
     font-family: Arial, Helvetica, sans-serif;
-  
 }
-table .flagi{
+
+table .flagi {
     width: 25px;
     border-radius: 0px;
     border: 0.1px solid black;
 }
-table .gerbs{
+
+table .gerbs {
     width: 100px;
     border-radius: 2.5px;
 }
-table .gerbs:hover{
+
+table .gerbs:hover {
     width: 100px;
     border-radius: 2.5px;
     border: none;
 }
-table td {height: 30px; vertical-align: center;} /* выравнивание по верхней границе ячейки */
-table a{
+
+table td {
+    height: 30px;
+    vertical-align: center;
+}
+
+/* выравнивание по верхней границе ячейки */
+
+table a {
     margin: 0%;
     font-style: italic;
     color: #ffffff;
 }
-table a:hover{
+
+table a:hover {
     margin: 0%;
     color: red
 }
