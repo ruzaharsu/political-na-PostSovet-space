@@ -79,10 +79,9 @@ header a:hover {
 }
 
 main {
-    font-family: 'Yandex Sans Text';
-    font-weight: 500;
-    font-style: normal;
+    font-family: 'Bellota', cursive;
     font-size: 16px;
+ 
 }
 
 a {
