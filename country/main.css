@@ -9,7 +9,25 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info {
+    background: white;
+    height: 25px;
+  
+}
+
+.info a {
+    text-decoration: none;
+    color: black;
+    margin: 0%;
+}
+
+.info a:hover {
+    
+    
+    border: none;
 }
 
 header div {
@@ -35,12 +53,13 @@ header a {
     color: red;
     margin: 2%;
 }
-header a:active, footer a:active{
+
+header a:active, footer a:active {
     color: red;
     border: solid 1px;
     border-radius: 10px;
-    
 }
+
 #nav-country {
     color: white;
     background-color: #00000000;
@@ -56,18 +75,19 @@ header a:active, footer a:active{
 header a:hover {
     text-decoration: none;
     color: red;
-    background-color:#134d1363 ;
-
+    background-color: #134d1363;
 }
 
 main {
     font-family: 'Bellota', cursive;
     font-size: 16px;
 }
-a{
+
+a {
     text-align: center;
     margin: 1%;
 }
+
 footer {
     width: 100%;
     height: auto;
@@ -80,10 +100,12 @@ footer {
     color: white;
     text-align: center;
 }
-.dre{
+
+.dre {
     width: 32px;
     border-radius: 1px;
 }
+
 footer a {
     text-decoration: none;
     font-size: 15px;
@@ -93,7 +115,6 @@ footer a {
 footer a:hover {
     text-decoration: none;
     color: green;
-
 }
 
 footer p {
@@ -105,7 +126,7 @@ footer p {
     border-radius: 0px;
 }
 
-header a:hover{
+header a:hover {
     transition: 0.5s;
     border-radius: 10px;
     border: solid 1px;
@@ -140,37 +161,50 @@ header a:hover{
         background: linear-gradient(0deg, rgba(219, 13, 32, 1) 0%, rgba(219, 13, 32, 1) 33%, rgba(1, 141, 233, 1) 33%, rgba(1, 141, 233, 1) 67%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 1) 100%);
     }
 }
-.wer{
-    overflow-x: auto; 
+
+.wer {
+    overflow-x: auto;
 }
-table p{
+
+table p {
     text-indent: 0px;
 }
-table{
+
+table {
     font-family: Arial, Helvetica, sans-serif;
 }
-table .flagi{
+
+table .flagi {
     width: 25px;
     border-radius: 0px;
     border: 0.1px solid black;
 }
-table .gerbs{
+
+table .gerbs {
     width: 100px;
     border-radius: 2.5px;
 }
-table .gerbs:hover{
+
+table .gerbs:hover {
     width: 100px;
     border-radius: 2.5px;
     border: none;
 }
-table td {height: 30px; vertical-align: center;} /* выравнивание по верхней границе ячейки */
-table a{
+
+table td {
+    height: 30px;
+    vertical-align: center;
+}
+
+/* выравнивание по верхней границе ячейки */
+
+table a {
     margin: 0%;
     font-style: italic;
     color: #ffffff;
 }
-table a:hover{
+
+table a:hover {
     margin: 0%;
     color: red
 }
-
