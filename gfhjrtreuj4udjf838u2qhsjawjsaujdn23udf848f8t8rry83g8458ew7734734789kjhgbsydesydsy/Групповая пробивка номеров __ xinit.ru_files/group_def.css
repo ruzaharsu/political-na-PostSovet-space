@@ -1,0 +1,82 @@
+body > article {
+    padding: 0 0 20px 0;
+}
+
+body > article::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+section.form {
+    float       : left;
+    top         : 20px;
+    position    : -webkit-sticky;
+    position    : sticky;
+    width       : 300px;
+    margin      : 20px 0;
+    padding     : 0 20px 20px 20px;
+    border      : 0;
+    border-right: #fe0a3d 5px solid;
+}
+
+section.info {
+    float: left;
+    width: calc(100% - 300px);
+    max-width: none;
+    margin: 20px 0 0 0;
+    padding: 0 20px;
+    border: 0;
+}
+
+section.info h1 {
+    margin    : 0 0 10px 0;
+    text-align: center;
+}
+
+section.info h2 {
+    margin: 20px 0 15px 0;
+}
+
+section.info h3 {
+    clear      : both;
+    margin     : 0;
+    margin-top: 15px;
+    font-size  : 1em;
+}
+
+section.info dl {
+    margin: 0;
+}
+
+section.info dt {
+    float : left;
+    clear : both;
+    margin: 0 8px 0 0;
+}
+
+section.info dd {
+    float : left;
+    margin: 0;
+}
+
+
+@media (max-width: 800px) {
+    section.form {
+        float   : none;
+        position: static;
+        width   : 100%;
+        border  : 0;
+    }
+
+    section.info {
+        float: none;
+        width: 100%;
+
+        margin-left: 0;
+    }
+
+    section.info h1 {
+        font-size: 1.5em;
+    }
+}

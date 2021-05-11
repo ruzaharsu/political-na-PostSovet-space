@@ -1,0 +1,96 @@
+fieldset {
+    border : 0;
+    margin : 0;
+    padding: 0;
+}
+
+fieldset > legend {
+    margin       : auto;
+    margin-bottom: 10px;
+    font-weight  : bold;
+}
+
+label:not(.menu) {
+    display: block;
+    margin-top: 10px;
+}
+
+small {
+    display: block;
+}
+
+input[type = text],
+input[type = password],
+input[type = number],
+input[type = tel],
+input[type = submit],
+button[type = button],
+textarea,
+select,
+.file_upload {
+    display   : block;
+    width     : 100%;
+    height    : 30px;
+    border    : 0;
+    padding   : 3px;
+    color     : #111;
+    background: #eef;
+}
+
+textarea {
+    height: 90px;
+    resize: vertical;
+}
+
+input[type = text]:invalid,
+input[type = number]:invalid,
+input[type = tel],
+textarea:invalid {
+    box-shadow: 0 0 10px 2px #f00;
+}
+
+input[type = submit],
+button[type = button] {
+    margin    : 20px 0 0 0;
+    background: #dde;
+    box-shadow: 4px 4px 0 0 #99a;
+    cursor    : pointer;
+}
+
+input[type = submit]:hover,
+button[type = button]:hover {
+    color     : #000;
+    background: #ccd;
+}
+
+input[type = submit]:active,
+button[type = button]:active {
+    box-shadow: 2px 2px 0 0 #889;
+}
+
+input[type = checkbox] {
+    display: none;
+}
+
+input[type = checkbox] + label {
+    cursor: pointer;
+    color: #dcdcff;
+}
+
+input[type = checkbox] + label:hover {
+    color: #fe0a3d;
+}
+
+input[type = checkbox] + label::before {
+    font-weight: bold;
+    content: '[\a0\a0\a0\a0]\a0\a0';
+}
+
+input[type = checkbox]:checked + label::before {
+    content: '[\a0x\a0]\a0\a0';
+}
+
+img.progress {
+    display: block;
+    margin : 20px auto;
+}

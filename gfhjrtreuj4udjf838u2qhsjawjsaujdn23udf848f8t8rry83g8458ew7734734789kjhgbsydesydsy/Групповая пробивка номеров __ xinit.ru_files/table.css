@@ -1,0 +1,141 @@
+table {
+    clear : both;
+    width : 100%;
+    margin: 0 auto 20px;
+
+    border-collapse: collapse;
+
+    font-size: 1em;
+}
+
+table:last-of-type {
+    margin-bottom: 0;
+}
+
+table.narrow {
+    width: auto;
+
+    margin-left : 0;
+    margin-right: 0;
+}
+
+caption {
+    width      : 100%;
+    margin     : 0 0 5px 0;
+    font-size  : 1.2em;
+    font-weight: bold;
+    text-align : left;
+}
+
+tr {
+    background: rgba(5, 14, 21, .8);
+}
+
+tr:hover {
+    background: rgba(255, 255, 255, .2);
+}
+
+td, th {
+    border : rgba(255, 255, 255, .5) 1px solid;
+    padding: 2px 7px;
+}
+
+th {
+    color: #fff;
+    background: rgba(77, 156, 223, .5);
+
+}
+
+th.pointer {
+    cursor: pointer;
+}
+
+thead tr {
+    background: rgba(255, 255, 255, .2);
+}
+
+td.center {
+    text-align: center;
+}
+
+th.left {
+    text-align: left;
+}
+
+td.divide-after,
+th.divide-after {
+    border-right-width: 2px;
+    border-right-color: rgba(255, 255, 255, .9);
+}
+
+table a::before,
+table a::after {
+    content: '';
+}
+
+table a[href *= '//']::after,
+table a[href ^= '//']::after {
+    content: '\a0⤴';
+}
+
+
+@media (max-width: 800px) {
+    table.narrow {
+        width: 100%;
+
+        margin-left : auto;
+        margin-right: auto;
+    }
+
+    thead, th {
+        display: none;
+    }
+
+    tr, td {
+        display: block;
+    }
+
+    tr {
+        margin-bottom: 15px;
+        padding: 5px 10px;
+        border : rgba(255, 255, 255, .7) 1px solid;
+        border-bottom-width: 3px;
+    }
+
+    tr.join {
+        margin-bottom      : 0;
+        border-bottom-width: 0;
+        border-top-color   : rgba(255, 255, 255, .3);
+    }
+
+    tr.join:first-child {
+        border-top-color: rgba(255, 255, 255, .7);
+    }
+
+    tr.join:last-child {
+        margin-bottom: 15px;
+        border-bottom-width: 3px;
+    }
+
+    td.hidden {
+        display: none;
+    }
+
+    td, td.center {
+        padding: 5px 0;
+        border-width: 0 0 1px 0;
+        border-color: rgba(255, 255, 255, .3);
+        text-align: right;
+    }
+
+    td:last-child {
+        border-width: 0;
+        margin-bottom: 0;
+    }
+
+    td::before {
+        float: left;
+        content: attr(data-title) ":";
+        font-weight: bold;
+    }
+}

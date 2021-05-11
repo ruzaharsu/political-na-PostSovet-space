@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)https://xinit.ru/group_def/ -->
+<html lang="ru">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#18202b">
+    <meta name="description"
+        content="Международные и междугородние телефонные коды, коды DEF и ABC-коды. Информация о перенесенных номерах (MNP, Mobile Number Portability). Можно получать информацию по списку номеров">
+
+    <title>Групповая пробивка номеров :: xinit.ru</title>
+
+    <link rel="icon" sizes="16x16" type="image/png" href="https://xinit.ru/style/icons/favicon-16.png">
+    <link rel="icon" sizes="32x32" type="image/png" href="https://xinit.ru/style/icons/favicon-32.png">
+    <link rel="icon" sizes="192x192" type="image/png" href="https://xinit.ru/style/icons/favicon-192.png">
+    <link rel="apple-touch-icon" href="https://xinit.ru/style/icons/apple-touch-icon.png">
+    <link rel="manifest" href="https://xinit.ru/manifest.json">
+
+    <link rel="stylesheet" href="./Групповая пробивка номеров __ xinit.ru_files/normalize.css"
+        integrity="sha512-+qB2aif4IuUw+c0tH5w7iYmr7v6AJ+FLUqr2wfr3Ms9jP6IGKSZhO0h4B9uEpBh1TuPt6Bo8HLWTlAFX1vccZQ=="
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./Групповая пробивка номеров __ xinit.ru_files/main.css">
+
+    <link rel="stylesheet" href="./Групповая пробивка номеров __ xinit.ru_files/form.css">
+    <link rel="stylesheet" href="./Групповая пробивка номеров __ xinit.ru_files/table.css">
+    <link rel="stylesheet" href="./Групповая пробивка номеров __ xinit.ru_files/group_def.css">
+    <script type="text/javascript" async="" src="./Групповая пробивка номеров __ xinit.ru_files/analytics.js"></script>
+    <script src="./Групповая пробивка номеров __ xinit.ru_files/vue.min.js"
+        integrity="sha512-E0wcoW3BSv/ZvprR5qZnsQ//TAHOSaq5AvRWfuSvwqravuBXOeeSycmecbN4otneNObeipZ2UkKLhXn6p3jLvw=="
+        crossorigin="anonymous"></script>
+
+    <script src="./Групповая пробивка номеров __ xinit.ru_files/fetch.umd.js"
+        integrity="sha512-WNVxjXx6AYogYznJUpCFxqcUGI+vVIuMvX2i/tmX3omPWA2rHeoTgYkYYCFASuVRDK1X0/BSotIKvbwlBaFqtw=="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <label class="menu">
+            <input type="checkbox" name="menu">
+            <span class="unchecked">меню</span>
+            <span class="checked">закрыть меню</span>
+            <nav>
+                <a href="https://xinit.ru/" title="Перейти на главную страницу">главная страница</a>
+                <a href="https://xinit.ru/blog/" title="Перейти в блог разработчика">блог</a>
+                <a href="https://xinit.ru/bs/"
+                    title="Перейти на страницу определения координат базовых станций">координаты базовых станций</a>
+                <a href="https://xinit.ru/def/"
+                    title="Перейти на страницу получения информации о телефонных номерах">телефонные коды</a>
+                <a class="current" href="https://xinit.ru/group_def/"
+                    title="Перейти на страницу получения информации о телефонных номерах по списку номеров">групповая
+                    пробивка номеров</a>
+                <a href="https://xinit.ru/imei/"
+                    title="Перейти на страницу получения информации о моделях телефонов по IMEI-номерам">IMEI-номера</a>
+                <a href="https://xinit.ru/whois/"
+                    title="Перейти на страницу получения информации о доменных именах и IP-адресах">whois</a>
+                <a href="https://xinit.ru/group_whois/"
+                    title="Перейти на страницу получения информации об IP-адресах по списку IP">групповой whois</a>
+                <a href="https://xinit.ru/iin/"
+                    title="Перейти на страницу получения информации о банковских кодах (IIN / BIN)">банковские коды</a>
+                <a href="https://xinit.ru/wifi/"
+                    title="Перейти на страницу определения координат точек доступа  Wi-Fi">местонахождение Wi-Fi</a>
+            </nav>
+        </label>
+    </header>
+    <div class="top-bar">
+        <a class="no-braces" href="https://t.me/xinit_ru" title="открыть Телеграм-канал"><img
+                src="./Групповая пробивка номеров __ xinit.ru_files/telegram.svg" width="14" height="14"
+                alt="Telegram">&nbsp; канал</a> &nbsp; / &nbsp;
+        <a class="no-braces" href="https://t.me/xinitbot" title="открыть бота в Телеграме"><img
+                src="./Групповая пробивка номеров __ xinit.ru_files/telegram.svg" width="14" height="14"
+                alt="Telegram">&nbsp; бот</a> &nbsp; / &nbsp;
+        <a class="no-braces" href="https://www.donationalerts.ru/r/xinit"
+            title="cделать пожертвование на развитие проекта"><img
+                src="./Групповая пробивка номеров __ xinit.ru_files/donationalerts.svg" width="12" height="14"
+                alt="Telegram">&nbsp; задонатить</a>
+    </div>
+
+    <div id="add-to-home-screen" style="display: none;">добавить на главный экран</div>
+
+
+    <article id="app">
+        <section class="form">
+            <form name="phone_info" method="post">
+                <fieldset>
+                    <legend>Список номеров:</legend> <textarea name="phones" autofocus="autofocus"
+                        required="required"></textarea> <small>
+                        Телефонные номера в международном формате (с указанием кода страны)
+                    </small> <input type="checkbox" checked="checked" id="russian"> <label for="russian">российские
+                        номера</label> <small>
+                        Номера без указания кода страны будут считаться российскими
+                    </small> <input type="submit" value="получить информацию">
+                    <!---->
+                </fieldset>
+            </form>
+        </section>
+        <section class="info">
+            <h1>Информация о телефонных номерах</h1> <noscript>
+                <h1>Для функционирования этого сервиса необходимо включить JavaScript</h1>
+            </noscript>
+            <table>
+                <thead>
+                    <tr>
+                        <th rowspan="3" class="divide-after pointer">номер&nbsp;▴▾</th>
+                        <th rowspan="2" colspan="2" class="divide-after">международные коды</th>
+                        <th colspan="5" class="divide-after">коды DEF/ABC</th>
+                        <th rowspan="3" class="pointer">текущий оператор связи (если менялся)&nbsp;▴▾</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="2" class="pointer">код&nbsp;▴▾</th>
+                        <th colspan="2">диапазон</th>
+                        <th rowspan="2" class="pointer">оператор связи&nbsp;▴▾</th>
+                        <th rowspan="2" class="divide-after pointer">регион&nbsp;▴▾</th>
+                    </tr>
+                    <tr>
+                        <th class="pointer">код&nbsp;▴▾</th>
+                        <th class="divide-after pointer">страна&nbsp;▴▾</th>
+                        <th>начало</th>
+                        <th>конец</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79034360096</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">903</td>
+                        <td data-title="начало диапазона" class="center">4300000</td>
+                        <td data-title="конец диапазона" class="center">4399999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79034393111</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">903</td>
+                        <td data-title="начало диапазона" class="center">4300000</td>
+                        <td data-title="конец диапазона" class="center">4399999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79054275521</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">905</td>
+                        <td data-title="начало диапазона" class="center">4250000</td>
+                        <td data-title="конец диапазона" class="center">4329999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79054321569</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">905</td>
+                        <td data-title="начало диапазона" class="center">4250000</td>
+                        <td data-title="конец диапазона" class="center">4329999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79054515512</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">905</td>
+                        <td data-title="начало диапазона" class="center">4500000</td>
+                        <td data-title="конец диапазона" class="center">4599999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79061820926</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">906</td>
+                        <td data-title="начало диапазона" class="center">1800000</td>
+                        <td data-title="конец диапазона" class="center">1869999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79064216917</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">906</td>
+                        <td data-title="начало диапазона" class="center">4140000</td>
+                        <td data-title="конец диапазона" class="center">4309999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79064216918</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">906</td>
+                        <td data-title="начало диапазона" class="center">4140000</td>
+                        <td data-title="конец диапазона" class="center">4309999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79064247627</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">906</td>
+                        <td data-title="начало диапазона" class="center">4140000</td>
+                        <td data-title="конец диапазона" class="center">4309999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79064304660</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">906</td>
+                        <td data-title="начало диапазона" class="center">4140000</td>
+                        <td data-title="конец диапазона" class="center">4309999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79064393900</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">906</td>
+                        <td data-title="начало диапазона" class="center">4390000</td>
+                        <td data-title="конец диапазона" class="center">4399999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79094221825</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">909</td>
+                        <td data-title="начало диапазона" class="center">4000000</td>
+                        <td data-title="конец диапазона" class="center">4429999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79094380844</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">909</td>
+                        <td data-title="начало диапазона" class="center">4000000</td>
+                        <td data-title="конец диапазона" class="center">4429999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79185801255</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">918</td>
+                        <td data-title="начало диапазона" class="center">5000000</td>
+                        <td data-title="конец диапазона" class="center">5999999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Мобильные ТелеСистемы"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79281377275</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">928</td>
+                        <td data-title="начало диапазона" class="center">1000000</td>
+                        <td data-title="конец диапазона" class="center">1999999</td>
+                        <td data-title="оператор связи" class="center">ПАО "МегаФон"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79281816324</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">928</td>
+                        <td data-title="начало диапазона" class="center">1000000</td>
+                        <td data-title="конец диапазона" class="center">1999999</td>
+                        <td data-title="оператор связи" class="center">ПАО "МегаФон"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79281865938</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">928</td>
+                        <td data-title="начало диапазона" class="center">1000000</td>
+                        <td data-title="конец диапазона" class="center">1999999</td>
+                        <td data-title="оператор связи" class="center">ПАО "МегаФон"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79286100445</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">928</td>
+                        <td data-title="начало диапазона" class="center">6000000</td>
+                        <td data-title="конец диапазона" class="center">6299999</td>
+                        <td data-title="оператор связи" class="center">ПАО "МегаФон"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79286110316</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">928</td>
+                        <td data-title="начало диапазона" class="center">6000000</td>
+                        <td data-title="конец диапазона" class="center">6299999</td>
+                        <td data-title="оператор связи" class="center">ПАО "МегаФон"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79287745125</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">928</td>
+                        <td data-title="начало диапазона" class="center">7500000</td>
+                        <td data-title="конец диапазона" class="center">7799999</td>
+                        <td data-title="оператор связи" class="center">ПАО "МегаФон"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79381078849</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">938</td>
+                        <td data-title="начало диапазона" class="center">1000000</td>
+                        <td data-title="конец диапазона" class="center">1399999</td>
+                        <td data-title="оператор связи" class="center">ПАО "МегаФон"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79381203435</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">938</td>
+                        <td data-title="начало диапазона" class="center">1000000</td>
+                        <td data-title="конец диапазона" class="center">1399999</td>
+                        <td data-title="оператор связи" class="center">ПАО "МегаФон"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79381433786</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">938</td>
+                        <td data-title="начало диапазона" class="center">1410000</td>
+                        <td data-title="конец диапазона" class="center">1829999</td>
+                        <td data-title="оператор связи" class="center">ПАО "МегаФон"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79515240886</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">951</td>
+                        <td data-title="начало диапазона" class="center">4900000</td>
+                        <td data-title="конец диапазона" class="center">5399999</td>
+                        <td data-title="оператор связи" class="center">ООО "Т2 Мобайл"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79518347514</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">951</td>
+                        <td data-title="начало диапазона" class="center">8200000</td>
+                        <td data-title="конец диапазона" class="center">8499999</td>
+                        <td data-title="оператор связи" class="center">ООО "Т2 Мобайл"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79604556544</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">960</td>
+                        <td data-title="начало диапазона" class="center">4420000</td>
+                        <td data-title="конец диапазона" class="center">4709999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79604612771</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">960</td>
+                        <td data-title="начало диапазона" class="center">4420000</td>
+                        <td data-title="конец диапазона" class="center">4709999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79612698906</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">961</td>
+                        <td data-title="начало диапазона" class="center">2680000</td>
+                        <td data-title="конец диапазона" class="center">3329999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79612713759</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">961</td>
+                        <td data-title="начало диапазона" class="center">2680000</td>
+                        <td data-title="конец диапазона" class="center">3329999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79612731128</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">961</td>
+                        <td data-title="начало диапазона" class="center">2680000</td>
+                        <td data-title="конец диапазона" class="center">3329999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79612748631</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">961</td>
+                        <td data-title="начало диапазона" class="center">2680000</td>
+                        <td data-title="конец диапазона" class="center">3329999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79612964643</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">961</td>
+                        <td data-title="начало диапазона" class="center">2680000</td>
+                        <td data-title="конец диапазона" class="center">3329999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79613065185</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">961</td>
+                        <td data-title="начало диапазона" class="center">2680000</td>
+                        <td data-title="конец диапазона" class="center">3329999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79613076942</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">961</td>
+                        <td data-title="начало диапазона" class="center">2680000</td>
+                        <td data-title="конец диапазона" class="center">3329999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79614042153</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">961</td>
+                        <td data-title="начало диапазона" class="center">4000000</td>
+                        <td data-title="конец диапазона" class="center">4399999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79614172117</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">961</td>
+                        <td data-title="начало диапазона" class="center">4000000</td>
+                        <td data-title="конец диапазона" class="center">4399999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Вымпел-Коммуникации"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79897216475</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">989</td>
+                        <td data-title="начало диапазона" class="center">7000000</td>
+                        <td data-title="конец диапазона" class="center">7299999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Мобильные ТелеСистемы"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                    <tr>
+                        <td data-title="номер" class="center divide-after">+79914246223</td>
+                        <td data-title="код страны" class="center">7</td>
+                        <td data-title="страна" class="center divide-after">Россия / Казахстан</td>
+                        <td data-title="код оператора" class="center">991</td>
+                        <td data-title="начало диапазона" class="center">4240000</td>
+                        <td data-title="конец диапазона" class="center">4264999</td>
+                        <td data-title="оператор связи" class="center">ПАО "Ростелеком"</td>
+                        <td data-title="регион" class="center divide-after">Ростовская обл.</td>
+                        <td class="hidden"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </article>
+
+    <script src="./Групповая пробивка номеров __ xinit.ru_files/app.js"></script>
+
+
+
+    <!-- Service worker -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js').then(reg => { });
+            });
+        }
+
+
+        let deferredPrompt = null;
+        const btnAddToScreen = document.getElementById('add-to-home-screen');
+
+        window.addEventListener('beforeinstallprompt', e => {
+            if (!sessionStorage.getItem('alreadyAsked')) {
+                e.preventDefault();
+                deferredPrompt = e;
+                btnAddToScreen.style.display = 'block';
+            }
+        });
+
+        btnAddToScreen.addEventListener('click', e => {
+            btnAddToScreen.style.display = 'none';
+            sessionStorage.setItem('alreadyAsked', 'true');
+            deferredPrompt.prompt();
+            deferredPrompt.userChoice.then();
+        });
+
+    </script>
+
+    <!-- Google Analytics -->
+    <script async="" src="./Групповая пробивка номеров __ xinit.ru_files/js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-134660836-1');
+    </script>
+
+    <!-- Tazeros -->
+    <script>
+        var tazeros_stats_config = {
+            site_id: 1614712597,
+            permission: "yes"
+        };
+    </script>
+    <script async="" src="./Групповая пробивка номеров __ xinit.ru_files/v3.js"></script>
+
+
+</body>
+
+</html>
