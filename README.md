@@ -29,7 +29,8 @@
 [![](https://github.com/ruzaharsu/svoe/blob/main/Vk.png)](https://vk.com/club198438193)
 
 ## Поддержка
-[![](https://github.com/ruzaharsu/svoe/blob/main/telegram.png)](https://t.me/ruzahardni)
+[![](https://github.com/ruzaharsu/svoe/blob/main/telegram.png)](https://t.me/the_batka)
+[![](https://github.com/ruzaharsu/svoe/blob/main/telegram.png)](mailto:zaharpeprenko2007@ya.ru)
 ## Рисунок сайта:
 ![](https://github.com/ruzaharsu/political-na-PostSovet-space/blob/main/ussr.jpg)
 
